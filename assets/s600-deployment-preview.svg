@@ -7,6 +7,20 @@
 <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#387c90" flood-opacity=".12"/></filter>
 <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L7 4L0 8" fill="none" stroke="#0ea99d" stroke-width="2"/></marker>
 </defs>
+<style>
+/* Gentle illustrative motion; all labels and layout remain stationary. */
+@keyframes flow {0%,10%{opacity:0;transform:translateX(0)}20%{opacity:1}65%{opacity:1}80%,100%{opacity:0;transform:translateX(22px)}}
+@keyframes breathe {0%,100%{opacity:.12}50%{opacity:.65}}
+@keyframes wave {0%,100%{transform:scaleY(.45);opacity:.55}50%{transform:scaleY(1);opacity:1}}
+@keyframes segment {0%,15%,100%{opacity:.18}40%,70%{opacity:.65}}
+.flow{animation:flow 7s ease-in-out infinite}
+.flow.second{animation-delay:2.4s}
+.breath{animation:breathe 7s ease-in-out infinite}
+.wave{transform-box:fill-box;transform-origin:center;animation:wave 2.8s ease-in-out infinite}
+.wave.b{animation-delay:-.7s}.wave.c{animation-delay:-1.4s}
+.segment{animation:segment 7s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.flow,.breath,.wave,.segment{animation:none}.flow{opacity:0}.breath{opacity:.2}.segment{opacity:.35}}
+</style>
 <rect width="1200" height="640" rx="26" fill="url(#bg)"/><rect width="1200" height="640" rx="26" fill="url(#dots)"/><circle cx="1140" cy="30" r="122" fill="#ffe39c" opacity=".45"/>
 <g font-family="Segoe UI, Microsoft YaHei, sans-serif" fill="#163550">
 <rect x="34" y="32" width="6" height="72" rx="3" fill="#ff9b38"/><text x="56" y="66" font-size="32" font-weight="700">S600 多模态部署</text><text x="56" y="98" font-size="18" fill="#537287">Roboto Origin · 让模型接入真实世界</text>
@@ -33,4 +47,21 @@
 <rect x="34" y="527" width="1132" height="61" rx="17" fill="white"/><text x="56" y="565" font-size="18" fill="#346389"><tspan font-weight="700" fill="#087e80">我的工作</tspan>　算法适配 · 传感器联调 · GPU / ONNX 校验 · 板端部署</text>
 <rect x="943" y="539" width="204" height="37" rx="18" fill="#08a995"/><text x="1045" y="564" text-anchor="middle" font-size="16" font-weight="700" fill="white">查看源码与复现 →</text>
 <text x="36" y="617" font-size="15" fill="#537287">感知与多模态演示原型 · 示意图非实机界面 · 自主导航尚未验收</text>
-</g></svg>
+</g>
+<!-- Motion is decorative: it does not encode throughput or real device telemetry. -->
+<g aria-hidden="true" pointer-events="none">
+  <circle class="breath" cx="111" cy="246" r="20" fill="none" stroke="#37b9f1" stroke-width="3"/>
+  <g fill="none" stroke="#ffb33b" stroke-width="2.5" stroke-linecap="round">
+    <path class="breath" d="M225 222q-10 16 0 32M283 222q10 16 0 32"/>
+  </g>
+  <circle class="flow" cx="333" cy="315" r="4" fill="#ffb33b"/>
+  <rect class="breath" x="411" y="212" width="86" height="86" rx="17" fill="none" stroke="#0dbda5" stroke-width="3"/>
+  <circle class="flow second" cx="818" cy="315" r="4" fill="#ffb33b"/>
+  <rect class="segment" x="939" y="281" width="55" height="61" rx="8" fill="none" stroke="#009b83" stroke-width="3"/>
+  <g stroke="#edac40" stroke-width="4" stroke-linecap="round">
+    <path class="wave" d="M1044 342v-8M1074 349v-19M1104 345v-11"/>
+    <path class="wave b" d="M1054 348v-21M1084 345v-9"/>
+    <path class="wave c" d="M1064 354v-32M1094 350v-23"/>
+  </g>
+</g>
+</svg>
