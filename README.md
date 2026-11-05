@@ -23,7 +23,7 @@
 
 ### [Roboto Origin｜S600 多模态部署](https://github.com/CanNyCat17/roboto-origin-rdk-x5-s100)
 
-<a href="https://github.com/CanNyCat17/roboto-origin-rdk-x5-s100/tree/main/apps/s600_coprocessor"><img src="assets/s600-deployment-preview.svg" width="640" alt="S600 多模态部署流程示意，点击查看源码"></a>
+<a href="https://github.com/CanNyCat17/roboto-origin-rdk-x5-s100/tree/main/apps/s600_coprocessor"><img src="assets/s600-deployment-preview.svg?v=2" width="640" alt="S600 多模态部署流程示意，点击查看源码"></a>
 
 - **我的贡献**：负责算法适配与板端部署，联调相机、雷达、麦克风，完成 ONNX 数值校验、S600 BPU 推理及 X5/S100 离线适配。
 - **交付成果**：YOLO 分割、Qwen3-VL 图片问答与 Whisper 转写演示；两分钟真实相机分割约 **19.2 FPS**。
