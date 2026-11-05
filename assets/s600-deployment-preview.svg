@@ -13,14 +13,21 @@
 @keyframes breathe {0%,100%{opacity:.12}50%{opacity:.65}}
 @keyframes wave {0%,100%{transform:scaleY(.45);opacity:.55}50%{transform:scaleY(1);opacity:1}}
 @keyframes segment {0%,15%,100%{opacity:.18}40%,70%{opacity:.65}}
-.flow{animation:flow 7s ease-in-out infinite}
-.flow.second{animation-delay:2.4s}
-.breath{animation:breathe 7s ease-in-out infinite}
-.wave{transform-box:fill-box;transform-origin:center;animation:wave 2.8s ease-in-out infinite}
+.flow{animation:flow 1.6s linear infinite;stroke:white;stroke-width:2;r:7px}
+.flow.second{animation-delay:.8s}
+.breath{animation:breathe 2s ease-in-out infinite;stroke-width:5}
+.wave{transform-box:fill-box;transform-origin:center;animation:wave .8s ease-in-out infinite;stroke-width:6}
 .wave.b{animation-delay:-.7s}.wave.c{animation-delay:-1.4s}
-.segment{animation:segment 7s ease-in-out infinite}
+.segment{animation:segment 2.4s ease-in-out infinite;stroke-width:4}
+@keyframes scan{0%{transform:translateY(0);opacity:0}12%,85%{opacity:.9}100%{transform:translateY(92px);opacity:0}}
+@keyframes model{0%,30%{opacity:1}36%,94%{opacity:.08}100%{opacity:1}}
+@keyframes ring{0%{transform:scale(.8);opacity:.9}100%{transform:scale(1.45);opacity:0}}
+.scan{animation:scan 2.4s linear infinite}
+.model{animation:model 4.8s ease-in-out infinite}
+.model.two{animation-delay:-3.2s}.model.three{animation-delay:-1.6s}
+.ring{transform-box:fill-box;transform-origin:center;animation:ring 2s ease-out infinite}
 path[d^="M1044 342v-8m10"]{opacity:.15}
-@media (prefers-reduced-motion:reduce){.flow,.breath,.wave,.segment{animation:none}.flow{opacity:0}.breath{opacity:.2}.segment{opacity:.35}}
+@media (prefers-reduced-motion:reduce){.flow,.breath,.wave,.segment,.scan,.model,.ring{animation:none}.flow,.scan,.ring{opacity:0}.breath,.model{opacity:.2}.segment{opacity:.35}}
 </style>
 <rect width="1200" height="640" rx="26" fill="url(#bg)"/><rect width="1200" height="640" rx="26" fill="url(#dots)"/><circle cx="1140" cy="30" r="122" fill="#ffe39c" opacity=".45"/>
 <g font-family="Segoe UI, Microsoft YaHei, sans-serif" fill="#163550">
@@ -51,6 +58,11 @@ path[d^="M1044 342v-8m10"]{opacity:.15}
 </g>
 <!-- Motion is decorative: it does not encode throughput or real device telemetry. -->
 <g aria-hidden="true" pointer-events="none">
+  <circle class="ring" cx="111" cy="246" r="20" fill="none" stroke="#239df0" stroke-width="4"/>
+  <rect class="model" x="393" y="315" width="392" height="46" rx="11" fill="none" stroke="#438cf0" stroke-width="4"/>
+  <rect class="model two" x="393" y="373" width="392" height="46" rx="11" fill="none" stroke="#08ae91" stroke-width="4"/>
+  <rect class="model three" x="393" y="431" width="392" height="46" rx="11" fill="none" stroke="#f5a623" stroke-width="4"/>
+  <g class="scan"><rect x="892" y="252" width="128" height="10" rx="3" fill="#00bdad" opacity=".25"/><path d="M892 252h128" stroke="#00a88f" stroke-width="4"/></g>
   <circle class="breath" cx="111" cy="246" r="20" fill="none" stroke="#37b9f1" stroke-width="3"/>
   <g fill="none" stroke="#ffb33b" stroke-width="2.5" stroke-linecap="round">
     <path class="breath" d="M225 222q-10 16 0 32M283 222q10 16 0 32"/>
