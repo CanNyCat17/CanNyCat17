@@ -50,7 +50,9 @@
 
 ## 科研与荣誉
 
-- **SCI 论文共同作者 2 篇**：*Ceramics International*；*Journal of Luminescence*。
+- **SCI 论文共同作者 2 篇**：
+  1. [Enhanced luminescence performance of near-infrared phosphor Y₂CaAl₄SiO₁₂: Fe³⁺, Yb³⁺ through energy transfer for anti-counterfeiting applications](https://doi.org/10.1016/j.ceramint.2025.10.342). *Ceramics International*, **51** (2025), 61520–61530.
+  2. [Exploring the luminescence mechanism and enabling tunable emission in Sr₃YGa₂O₇.₅: Bi³⁺, Eu³⁺ phosphors for advanced UV-converted white LEDs](https://doi.org/10.1016/j.jlumin.2025.121192). *Journal of Luminescence*, **281** (2025), 121192.
 - **重庆市级大学生创新创业训练计划项目**：第一负责人。
 - **美国大学生数学建模竞赛**：M 奖。
 - **国际大学生物理竞赛金奖** · 2025 University Physics Competition · Gold Medal。Sasando 数字谐振器项目负责人，Team 112 / Problem A。[项目源码](https://github.com/CanNyCat17/sasando-digital-resonator) · [官方获奖论文](https://www.uphysicsc.com/2025-GM-A-112.pdf)
