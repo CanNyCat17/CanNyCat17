@@ -13,7 +13,7 @@
 
 ### [RDK X5 Duck｜机载机器人与开源复刻](https://github.com/CanNyCat17/rdk-x5-microduck)
 
-<a href="https://github.com/CanNyCat17/rdk-x5-microduck/blob/main/docs/CURRENT_PROTOTYPE.md"><img src="assets/duck-single-power-20261030.png" width="640" alt="RDK X5 Duck 单电源机载样机，点击查看验证进度"></a>
+<a href="https://github.com/CanNyCat17/rdk-x5-microduck/blob/main/docs/CURRENT_PROTOTYPE.md"><img src="assets/duck-single-power-20261030.png" width="100%" alt="RDK X5 Duck 单电源机载样机，点击查看验证进度"></a>
 
 - **我的贡献**：在团队支持下主导 15 轴整机集成、Linux/Python 控制、总线与 IMU 联调，开发 Web 调参、安全复位与分阶段颈部控制。
 - **交付成果**：双电池全机载短距离前进；公开软件、机械资料、MuJoCo 教学仿真及 **24 章完整复刻手册**。
@@ -23,7 +23,7 @@
 
 ### [Roboto Origin｜S600 多模态部署](https://github.com/CanNyCat17/roboto-origin-rdk-x5-s100)
 
-<a href="https://github.com/CanNyCat17/roboto-origin-rdk-x5-s100/tree/main/apps/s600_coprocessor"><img src="assets/s600-deployment-preview.svg?v=2" width="640" alt="S600 多模态部署流程示意，点击查看源码"></a>
+<a href="https://github.com/CanNyCat17/roboto-origin-rdk-x5-s100/tree/main/apps/s600_coprocessor"><img src="assets/s600-showcase.svg" width="100%" alt="S600 多模态部署动态流程示意，点击查看源码"></a>
 
 - **我的贡献**：负责算法适配与板端部署，联调相机、雷达、麦克风，完成 ONNX 数值校验、S600 BPU 推理及 X5/S100 离线适配。
 - **交付成果**：YOLO 分割、Qwen3-VL 图片问答与 Whisper 转写演示；两分钟真实相机分割约 **19.2 FPS**。
@@ -53,10 +53,10 @@
 - **SCI 论文共同作者 2 篇**：
   1. [Enhanced luminescence performance of near-infrared phosphor Y₂CaAl₄SiO₁₂: Fe³⁺, Yb³⁺ through energy transfer for anti-counterfeiting applications](https://doi.org/10.1016/j.ceramint.2025.10.342). *Ceramics International*, **51** (2025), 61520–61530.
   2. [Exploring the luminescence mechanism and enabling tunable emission in Sr₃YGa₂O₇.₅: Bi³⁺, Eu³⁺ phosphors for advanced UV-converted white LEDs](https://doi.org/10.1016/j.jlumin.2025.121192). *Journal of Luminescence*, **281** (2025), 121192.
-- **重庆市级大学生创新创业训练计划项目**：第一负责人。
-- **美国大学生数学建模竞赛**：M 奖。
+- **重庆市级大学生创新训练项目｜高效 Cr³⁺掺杂宽带近红外光源的设计及应用研究**：第一负责人，负责项目统筹与材料高通量筛选；研究结构限域、邻位调控与能量传递，面向近红外荧光粉及 LED 器件应用。
+- **[2026 美国大学生数学建模竞赛（MCM）B 题｜月球殖民地运输规划](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics)**：M 奖（Meritorious Winner），Team 2600039。太空电梯与火箭运输的多目标优化、蒙特卡洛可靠性、供水与环境分析。[完整论文](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics/blob/main/paper/2600039.pdf) · [MATLAB 源码](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics/tree/main/matlab)
 - **国际大学生物理竞赛金奖** · 2025 University Physics Competition · Gold Medal。Sasando 数字谐振器项目负责人，Team 112 / Problem A。[项目源码](https://github.com/CanNyCat17/sasando-digital-resonator) · [官方获奖论文](https://www.uphysicsc.com/2025-GM-A-112.pdf)
-- **全国大学生机械创新设计大赛重庆赛区二等奖**。
+- **[仿生蝴蝶｜第十二届全国大学生机械创新设计大赛重庆赛区二等奖](https://github.com/CanNyCat17/bionic-butterfly-stm32)**：公开 STM32G031 + DRV8837 四电机 PWM 驱动、镜像极性修正与协同动作代码；当前代码为电机调试阶段，扑翅与飞行未验证。
 
 ## 技术与交流
 
