@@ -19,6 +19,7 @@
 .wave{transform-box:fill-box;transform-origin:center;animation:wave 2.8s ease-in-out infinite}
 .wave.b{animation-delay:-.7s}.wave.c{animation-delay:-1.4s}
 .segment{animation:segment 7s ease-in-out infinite}
+path[d^="M1044 342v-8m10"]{opacity:.15}
 @media (prefers-reduced-motion:reduce){.flow,.breath,.wave,.segment{animation:none}.flow{opacity:0}.breath{opacity:.2}.segment{opacity:.35}}
 </style>
 <rect width="1200" height="640" rx="26" fill="url(#bg)"/><rect width="1200" height="640" rx="26" fill="url(#dots)"/><circle cx="1140" cy="30" r="122" fill="#ffe39c" opacity=".45"/>
