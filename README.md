@@ -13,11 +13,13 @@
 
 ### [RDK X5 Duck｜机载机器人与开源复刻](https://github.com/CanNyCat17/rdk-x5-microduck)
 
-<a href="https://github.com/CanNyCat17/rdk-x5-microduck/blob/main/docs/CURRENT_PROTOTYPE.md"><img src="assets/duck-single-power-20261030.png" width="100%" alt="RDK X5 Duck 单电源机载样机，点击查看验证进度"></a>
+<a href="https://github.com/CanNyCat17/rdk-x5-microduck/blob/main/docs/CURRENT_PROTOTYPE.md"><img src="assets/duck-hero-20261106.png" width="100%" alt="RDK X5 Duck 航模电池方案验证成功，点击查看最新进度"></a>
 
 - **我的贡献**：在团队支持下主导 15 轴整机集成、Linux/Python 控制、总线与 IMU 联调，开发 Web 调参、安全复位与分阶段颈部控制。
 - **交付成果**：双电池全机载短距离前进；公开软件、机械资料、MuJoCo 教学仿真及 **24 章完整复刻手册**。
-- **验证边界**：短距离成果采用目标序列与颈部时序控制；单电源已能站立，带载行走与 RL 实机闭环待验证。
+- **验证边界**：短距离成果采用目标序列与颈部时序控制；上一版航模电池＋5V UBEC供电方案验证成功；等待新Hub和线束，行走稳定性与RL实机闭环继续验证，本次不更新行走视频。
+
+计划在2026 DDC／地瓜机器人黑客松前推进行走及夹取、睡眠唤醒、语音视觉互动，项目目标日期为2026-12-04。RDK X5为外挂方案，暂不推进翻跟头等高冲击动作。[最新进度与下一版BOM](https://github.com/CanNyCat17/rdk-x5-microduck/tree/main/progress/2026-11-06)
 
 [实机视频](https://github.com/CanNyCat17/rdk-x5-microduck/blob/main/media/20261023/onboard-short-walk.mp4) · [源码与 DEMO](https://github.com/CanNyCat17/rdk-x5-microduck/tree/main/software) · [复刻手册](https://github.com/CanNyCat17/rdk-x5-microduck/blob/main/docs/FULL_SOLUTION.md) · [地瓜社区](https://forum.d-robotics.cc/t/topic/35728/1)
 
