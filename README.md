@@ -31,7 +31,10 @@
 
 [源码与复现](https://github.com/CanNyCat17/roboto-origin-rdk-x5-s100/tree/main/apps/s600_coprocessor) · [验证报告](https://github.com/CanNyCat17/roboto-origin-rdk-x5-s100/blob/main/docs/S600_COPROCESSOR_DEMO.md)
 
-**开发者生态贡献** · 交付双语课程与实板样例，S100 第 11–13 课与 X5/S100 CAN 合计新增 10 条成片；复现设备与推理问题、分析日志并提供公开诊断建议。[课程贡献](https://github.com/D-Robotics/rdk-course-demos/commit/0ce864e93e8eaed061cebff69023e732961ea03e) · [技术答复](https://forum.d-robotics.cc/t/topic/35643/6)
+**开发者生态贡献**
+
+- **课程交付｜已完成**：完成所负责的 RDK X5/S100 双语课程、课件与实板演示，贡献官方课程仓库。[课程贡献](https://github.com/D-Robotics/rdk-course-demos/commit/0ce864e93e8eaed061cebff69023e732961ea03e)
+- **社区技术支持｜持续开展**：以 CanNyCat 账号持续答复地瓜论坛开发问题，覆盖 SDK 编译、BPU 模型部署、相机接入及系统/网络排障；结合日志与官方资料提供诊断建议，跟进反馈并协同研发。[公开答复](https://forum.d-robotics.cc/u/cannycat/activity/replies)
 
 ## 竞赛与项目
 
