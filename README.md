@@ -75,14 +75,11 @@
 
 ## 科研成果
 
-- **已发表 SCI/SCIE 期刊论文 2 篇｜均为共同作者**（署名：Lingxuan Zhou）  
-  研究方向：发光材料、能量传递与光学应用。两本期刊均由 **SCIE（科学引文索引扩展版）**收录。
-
-  **Ceramics International：JCR Q1（材料科学：陶瓷）**；**Journal of Luminescence：JCR Q2（光学）**。分区依据为[2025 年发布的 JCR，2024 数据年度](https://uefiscdi.gov.ro/resource-865587-JCR_2024.18.iunie.2025.pdf)，属于期刊学科分区。
+- **已发表 SCI/SCIE 期刊论文 2 篇，均为共同作者**：Ceramics International（JCR Q1，材料科学：陶瓷）与 Journal of Luminescence（JCR Q2，光学），分区采用[2025 年发布的 JCR（2024 数据年度）](https://uefiscdi.gov.ro/resource-865587-JCR_2024.18.iunie.2025.pdf)。
 
   1. [Enhanced luminescence performance of near-infrared phosphor Y₂CaAl₄SiO₁₂: Fe³⁺, Yb³⁺ through energy transfer for anti-counterfeiting applications](https://doi.org/10.1016/j.ceramint.2025.10.342). *Ceramics International*, **51** (2025), 61520–61530.
   2. [Exploring the luminescence mechanism and enabling tunable emission in Sr₃YGa₂O₇.₅: Bi³⁺, Eu³⁺ phosphors for advanced UV-converted white LEDs](https://doi.org/10.1016/j.jlumin.2025.121192). *Journal of Luminescence*, **281** (2025), 121192.
-- **重庆市级大学生创新训练项目｜高效 Cr³⁺掺杂宽带近红外光源的设计及应用研究**：第一负责人，负责项目统筹与材料高通量筛选；研究结构限域、邻位调控与能量传递，面向近红外荧光粉及 LED 器件应用。
+- **重庆市级大学生创新训练项目｜高效 Cr³⁺掺杂宽带近红外光源的设计及应用研究**（2026.06–2027.06）：第一负责人，负责项目统筹与材料高通量筛选；研究结构限域、邻位调控与能量传递，面向近红外荧光粉及 LED 器件应用。
 
 ## 技术与交流
 
