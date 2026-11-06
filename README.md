@@ -63,19 +63,17 @@
 
 - **[美国大学生数学建模竞赛｜月球殖民地运输规划](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics)**<br>
   2026 Mathematical Contest in Modeling（MCM）· **M 奖（Meritorious Winner）**<br>
-  B 题 · Team 2600039 · 太空电梯与火箭运输的多目标优化、蒙特卡洛可靠性、供水与环境分析。<br>
-  [完整论文](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics/blob/main/paper/2600039.pdf) · [MATLAB 源码](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics/tree/main/matlab)
+  B 题 · 多目标运输优化、蒙特卡洛可靠性分析。[论文](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics/blob/main/paper/2600039.pdf) · [源码](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics/tree/main/matlab)
 
 - **[国际大学生物理竞赛｜Sasando 数字谐振器](https://github.com/CanNyCat17/sasando-digital-resonator)**<br>
   2025 University Physics Competition · **金奖（Gold Medal）**<br>
-  项目负责人 · Problem A · Team 112。<br>
-  [项目源码](https://github.com/CanNyCat17/sasando-digital-resonator) · [官方获奖论文](https://www.uphysicsc.com/2025-GM-A-112.pdf)
+  项目负责人 · Problem A / Team 112。[论文](https://www.uphysicsc.com/2025-GM-A-112.pdf) · [源码](https://github.com/CanNyCat17/sasando-digital-resonator)
 
 <sub>目录依据：嵌入式芯片与系统设计竞赛、“西门子杯”、集创赛、中国大学生机械工程创新创意大赛及机械创新设计大赛均列入《<a href="https://statics.scnu.edu.cn/pics/xsb/2025/0103/1735893141731811.pdf">2024 全国普通高校大学生竞赛分析报告</a>》竞赛目录；物流技术创意赛为机械工程创新创意大赛的<a href="https://www.cmes.org/notice/010c5f85554e440e99d702008b58a26f.html">专项赛</a>。项目标题可点击查看源码与成果。</sub>
 
 ## 科研成果
 
-- **已发表 SCI/SCIE 期刊论文 2 篇，均为共同作者**：Ceramics International（JCR Q1，材料科学：陶瓷）与 Journal of Luminescence（JCR Q2，光学），分区采用[2025 年发布的 JCR（2024 数据年度）](https://uefiscdi.gov.ro/resource-865587-JCR_2024.18.iunie.2025.pdf)。
+- **已发表 SCI/SCIE 论文 2 篇，均为共同作者**：Ceramics International · **Q1**；Journal of Luminescence · **Q2**（JCR 2024，2025 发布）。
 
   1. [Enhanced luminescence performance of near-infrared phosphor Y₂CaAl₄SiO₁₂: Fe³⁺, Yb³⁺ through energy transfer for anti-counterfeiting applications](https://doi.org/10.1016/j.ceramint.2025.10.342). *Ceramics International*, **51** (2025), 61520–61530.
   2. [Exploring the luminescence mechanism and enabling tunable emission in Sr₃YGa₂O₇.₅: Bi³⁺, Eu³⁺ phosphors for advanced UV-converted white LEDs](https://doi.org/10.1016/j.jlumin.2025.121192). *Journal of Luminescence*, **281** (2025), 121192.
