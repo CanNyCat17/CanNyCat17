@@ -13,9 +13,11 @@
 
 ### [RDK X5 Duck｜机载机器人与开源复刻](https://github.com/CanNyCat17/rdk-x5-microduck)
 
+依托南京地瓜机器人生态开发部门 · **主要负责 Duck 项目**
+
 <a href="https://github.com/CanNyCat17/rdk-x5-microduck/blob/main/docs/CURRENT_PROTOTYPE.md"><img src="assets/duck-hero-20261106.png" width="100%" alt="RDK X5 Duck 航模电池方案验证成功，点击查看最新进度"></a>
 
-- **我的贡献**：在团队支持下主导 15 轴整机集成、Linux/Python 控制、总线与 IMU 联调，开发 Web 调参、安全复位与分阶段颈部控制。
+- **我的贡献**：主导 15 轴整机集成、Linux/Python 控制及总线与 IMU 联调，开发 Web 调参、安全复位与分阶段颈部控制。
 - **交付成果**：双电池全机载短距离前进；公开软件、机械资料、MuJoCo 教学仿真及 **24 章完整复刻手册**。
 - **验证边界**：短距离成果采用目标序列与颈部时序控制；上一版航模电池＋5V UBEC供电方案验证成功；等待新Hub和线束，行走稳定性与RL实机闭环继续验证，本次不更新行走视频。
 
@@ -23,15 +25,17 @@
 
 [实机视频](https://github.com/CanNyCat17/rdk-x5-microduck/blob/main/media/20261023/onboard-short-walk.mp4) · [源码与 DEMO](https://github.com/CanNyCat17/rdk-x5-microduck/tree/main/software) · [复刻手册](https://github.com/CanNyCat17/rdk-x5-microduck/blob/main/docs/FULL_SOLUTION.md) · [地瓜社区](https://forum.d-robotics.cc/t/topic/35728/1)
 
-### [Roboto Origin｜S600 多模态部署](https://github.com/CanNyCat17/roboto-origin-rdk-x5-s100)
+### [RDK S600｜Roboto Origin 多模态实机部署](https://github.com/CanNyCat17/roboto-origin-rdk-s600)
 
-<a href="https://github.com/CanNyCat17/roboto-origin-rdk-x5-s100/tree/main/apps/s600_coprocessor"><img src="assets/s600-showcase.svg" width="100%" alt="S600 多模态部署动态流程示意，点击查看源码"></a>
+依托南京地瓜机器人生态开发部门 · **负责 Roboto Origin 的 S600 实机部署**
+
+<a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600/tree/main/apps/s600_coprocessor"><img src="assets/s600-showcase.svg" width="100%" alt="S600 多模态部署动态流程示意，点击查看源码"></a>
 
 - **我的贡献**：负责算法适配与板端部署，联调相机、雷达、麦克风，完成 ONNX 数值校验、S600 BPU 推理及 X5/S100 离线适配。
 - **交付成果**：YOLO 分割、Qwen3-VL 图片问答与 Whisper 转写演示；两分钟真实相机分割约 **19.2 FPS**。
-- **验证边界**：基于公司团队的机器人底座开展感知演示，自主导航与整机运动闭环尚未验收。
+- **验证边界**：已完成感知与多模态实机演示，自主导航与整机运动闭环尚未验收。
 
-[源码与复现](https://github.com/CanNyCat17/roboto-origin-rdk-x5-s100/tree/main/apps/s600_coprocessor) · [验证报告](https://github.com/CanNyCat17/roboto-origin-rdk-x5-s100/blob/main/docs/S600_COPROCESSOR_DEMO.md)
+[源码与复现](https://github.com/CanNyCat17/roboto-origin-rdk-s600/tree/main/apps/s600_coprocessor) · [验证报告](https://github.com/CanNyCat17/roboto-origin-rdk-s600/blob/main/docs/S600_COPROCESSOR_DEMO.md)
 
 **开发者生态贡献**
 
