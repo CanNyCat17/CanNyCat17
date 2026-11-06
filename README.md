@@ -50,7 +50,8 @@
 
 ## 科研与荣誉
 
-- **SCI 论文共同作者 2 篇**：
+- **已发表 SCI 论文 2 篇｜均为共同作者**（署名：Lingxuan Zhou）  
+  研究方向：发光材料与能量传递；以下列出完整题名、期刊卷页与 DOI。
   1. [Enhanced luminescence performance of near-infrared phosphor Y₂CaAl₄SiO₁₂: Fe³⁺, Yb³⁺ through energy transfer for anti-counterfeiting applications](https://doi.org/10.1016/j.ceramint.2025.10.342). *Ceramics International*, **51** (2025), 61520–61530.
   2. [Exploring the luminescence mechanism and enabling tunable emission in Sr₃YGa₂O₇.₅: Bi³⁺, Eu³⁺ phosphors for advanced UV-converted white LEDs](https://doi.org/10.1016/j.jlumin.2025.121192). *Journal of Luminescence*, **281** (2025), 121192.
 - **重庆市级大学生创新训练项目｜高效 Cr³⁺掺杂宽带近红外光源的设计及应用研究**：第一负责人，负责项目统筹与材料高通量筛选；研究结构限域、邻位调控与能量传递，面向近红外荧光粉及 LED 器件应用。
@@ -78,4 +79,4 @@
 
 </details>
 
-<sub>更新于 2026-11-05 · 实机阶段与验证范围详见各项目仓库。</sub>
+<sub>更新于 2026-11-06 · 实机阶段与验证范围详见各项目仓库。</sub>
