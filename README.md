@@ -37,18 +37,18 @@
 
 **全国一等奖 1 项 · 全国二等奖 2 项 · 全国三等奖 1 项**；4 项队长，负责核心软件开发与算法实现。
 
-下列“目录内”指入选[《2024 全国普通高校大学生竞赛分析报告》竞赛目录](https://statics.scnu.edu.cn/pics/xsb/2025/0103/1735893141731811.pdf)。赛事范围与获奖层级分别标注；重庆赛区奖为省级层面奖项，黑客松奖按具体赛道呈现。
-
 - **[双 RDK X5 材料 AI 与具身实验助理](https://github.com/CanNyCat17/dual-rdk-x5-materials-ai-robot-lab)**  
-  2026 全国大学生嵌入式芯片与系统设计竞赛 · **全国性赛事（目录内）｜全国总决赛二等奖**。队长，负责材料分析、CPU/BPU 部署与 ROS 2 多机双臂软件联调。
+  2026 全国大学生嵌入式芯片与系统设计竞赛 · **全国总决赛二等奖**。队长，负责材料分析、CPU/BPU 部署与 ROS 2 多机双臂软件联调。
 - **[RootScope｜根区灌溉舱](https://github.com/CanNyCat17/RootScope-AdventureX2026)**  
   AdventureX 2026 · **黑客松｜地瓜机器人赛道二等奖（第 2 名）· superun.ai 赛道三等奖**。队长，负责视觉模型与 X5→STM32 探针/水泵联调。
 - **[Lab-Sentinel｜烧结安全哨兵](https://github.com/CanNyCat17/Lab-Sentinel-CIMC2026)**  
-  2026 CIMC“西门子杯”中国智能制造挑战赛 · **全国性赛事（目录内）｜全国总决赛二等奖**。队长，负责 GD32H759、FreeRTOS/LVGL 软件与 MCU 边缘推理优化。
+  2026 CIMC“西门子杯”中国智能制造挑战赛 · **全国总决赛二等奖**。队长，负责 GD32H759、FreeRTOS/LVGL 软件与 MCU 边缘推理优化。
 - **[存储芯片 ATE/PAT 平台](https://github.com/CanNyCat17/memory-ate-pat-platform)**  
-  2026 全国大学生集成电路创新创业大赛 · **全国性赛事（目录内）｜全国总决赛一等奖**。软件与 PAT 算法负责人，开发 I²C/SPI 向量算法与 Electron 流式生成平台。
+  2026 全国大学生集成电路创新创业大赛 · **全国总决赛一等奖**。软件与 PAT 算法负责人，开发 I²C/SPI 向量算法与 Electron 流式生成平台。
 - **[自主散料搬运机器人](https://github.com/CanNyCat17/intelligent-vision-logistics-crane-2026)**  
-  2026 中国大学生机械工程创新创意大赛物流技术创意赛 · **全国性专项赛（所属大赛在目录内）｜全国总决赛三等奖**。队长，负责 Jetson 视觉、ROS 2 导航及串口联调。[赛事归属](https://www.cmes.org/notice/010c5f85554e440e99d702008b58a26f.html)
+  2026 中国大学生机械工程创新创意大赛物流技术创意赛 · **全国总决赛三等奖**。队长，负责 Jetson 视觉、ROS 2 导航及串口联调。
+
+<sub>目录依据：嵌入式芯片与系统设计竞赛、“西门子杯”、集创赛、中国大学生机械工程创新创意大赛及下方机械创新设计大赛均列入《<a href="https://statics.scnu.edu.cn/pics/xsb/2025/0103/1735893141731811.pdf">2024 全国普通高校大学生竞赛分析报告</a>》竞赛目录；物流技术创意赛为机械工程创新创意大赛的<a href="https://www.cmes.org/notice/010c5f85554e440e99d702008b58a26f.html">专项赛</a>。项目标题可点击查看源码与成果。</sub>
 
 ## 科研与荣誉
 
@@ -62,7 +62,7 @@
 - **重庆市级大学生创新训练项目｜高效 Cr³⁺掺杂宽带近红外光源的设计及应用研究**：第一负责人，负责项目统筹与材料高通量筛选；研究结构限域、邻位调控与能量传递，面向近红外荧光粉及 LED 器件应用。
 - **[2026 美国大学生数学建模竞赛（MCM）B 题｜月球殖民地运输规划](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics)** · **国际竞赛｜M 奖（Meritorious Winner）**，Team 2600039。太空电梯与火箭运输的多目标优化、蒙特卡洛可靠性、供水与环境分析。[完整论文](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics/blob/main/paper/2600039.pdf) · [MATLAB 源码](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics/tree/main/matlab)
 - **国际大学生物理竞赛｜2025 University Physics Competition** · **国际竞赛｜金奖（Gold Medal）**。Sasando 数字谐振器项目负责人，Team 112 / Problem A。[项目源码](https://github.com/CanNyCat17/sasando-digital-resonator) · [官方获奖论文](https://www.uphysicsc.com/2025-GM-A-112.pdf)
-- **[仿生蝴蝶｜第十二届全国大学生机械创新设计大赛](https://github.com/CanNyCat17/bionic-butterfly-stm32)** · **全国性赛事（目录内）｜重庆赛区二等奖（省级）**：公开 STM32G031 + DRV8837 四电机 PWM 驱动、镜像极性修正与协同动作代码；当前代码为电机调试阶段，扑翅与飞行未验证。
+- **[仿生蝴蝶｜第十二届全国大学生机械创新设计大赛](https://github.com/CanNyCat17/bionic-butterfly-stm32)** · **重庆赛区二等奖（省级）**：公开 STM32G031 + DRV8837 四电机 PWM 驱动、镜像极性修正与协同动作代码；当前代码为电机调试阶段，扑翅与飞行未验证。
 
 ## 技术与交流
 
