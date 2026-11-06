@@ -7,7 +7,7 @@
 
 从模型部署、传感器与执行器接入，到实机排障与开源交付。
 
-[代表作品](#代表作品) · [工程竞赛](#工程竞赛) · [科研与荣誉](#科研与荣誉) · [技术与交流](#技术与交流)
+[代表作品](#代表作品) · [竞赛与项目](#竞赛与项目) · [科研成果](#科研成果) · [技术与交流](#技术与交流)
 
 ## 代表作品
 
@@ -33,9 +33,9 @@
 
 **开发者生态贡献** · 交付双语课程与实板样例，S100 第 11–13 课与 X5/S100 CAN 合计新增 10 条成片；复现设备与推理问题、分析日志并提供公开诊断建议。[课程贡献](https://github.com/D-Robotics/rdk-course-demos/commit/0ce864e93e8eaed061cebff69023e732961ea03e) · [技术答复](https://forum.d-robotics.cc/t/topic/35643/6)
 
-## 工程竞赛
+## 竞赛与项目
 
-**全国一等奖 1 项 · 全国二等奖 2 项 · 全国三等奖 1 项**；4 项队长，负责核心软件开发与算法实现。
+**四项工程竞赛全国奖：一等奖 1 项 · 二等奖 2 项 · 三等奖 1 项**（集创赛、嵌入式竞赛、西门子杯、物流技术创意赛）。下列前五项项目中担任 4 项队长，负责核心软件开发与算法实现；其他竞赛奖项分别列于对应项目。
 
 - **[双 RDK X5 材料 AI 与具身实验助理](https://github.com/CanNyCat17/dual-rdk-x5-materials-ai-robot-lab)**  
   2026 全国大学生嵌入式芯片与系统设计竞赛 · **全国总决赛二等奖**。队长，负责材料分析、CPU/BPU 部署与 ROS 2 多机双臂软件联调。
@@ -48,9 +48,13 @@
 - **[自主散料搬运机器人](https://github.com/CanNyCat17/intelligent-vision-logistics-crane-2026)**  
   2026 中国大学生机械工程创新创意大赛物流技术创意赛 · **全国总决赛三等奖**。队长，负责 Jetson 视觉、ROS 2 导航及串口联调。
 
-<sub>目录依据：嵌入式芯片与系统设计竞赛、“西门子杯”、集创赛、中国大学生机械工程创新创意大赛及下方机械创新设计大赛均列入《<a href="https://statics.scnu.edu.cn/pics/xsb/2025/0103/1735893141731811.pdf">2024 全国普通高校大学生竞赛分析报告</a>》竞赛目录；物流技术创意赛为机械工程创新创意大赛的<a href="https://www.cmes.org/notice/010c5f85554e440e99d702008b58a26f.html">专项赛</a>。项目标题可点击查看源码与成果。</sub>
+- **[仿生蝴蝶｜第十二届全国大学生机械创新设计大赛](https://github.com/CanNyCat17/bionic-butterfly-stm32)** · **重庆赛区二等奖（省级）**：公开 STM32G031 + DRV8837 四电机 PWM 驱动、镜像极性修正与协同动作代码；当前代码为电机调试阶段，扑翅与飞行未验证。
+- **[2026 美国大学生数学建模竞赛（MCM）B 题｜月球殖民地运输规划](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics)** · **国际竞赛｜M 奖（Meritorious Winner）**，Team 2600039。太空电梯与火箭运输的多目标优化、蒙特卡洛可靠性、供水与环境分析。[完整论文](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics/blob/main/paper/2600039.pdf) · [MATLAB 源码](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics/tree/main/matlab)
+- **国际大学生物理竞赛｜2025 University Physics Competition** · **国际竞赛｜金奖（Gold Medal）**。Sasando 数字谐振器项目负责人，Team 112 / Problem A。[项目源码](https://github.com/CanNyCat17/sasando-digital-resonator) · [官方获奖论文](https://www.uphysicsc.com/2025-GM-A-112.pdf)
 
-## 科研与荣誉
+<sub>目录依据：嵌入式芯片与系统设计竞赛、“西门子杯”、集创赛、中国大学生机械工程创新创意大赛及机械创新设计大赛均列入《<a href="https://statics.scnu.edu.cn/pics/xsb/2025/0103/1735893141731811.pdf">2024 全国普通高校大学生竞赛分析报告</a>》竞赛目录；物流技术创意赛为机械工程创新创意大赛的<a href="https://www.cmes.org/notice/010c5f85554e440e99d702008b58a26f.html">专项赛</a>。项目标题可点击查看源码与成果。</sub>
+
+## 科研成果
 
 - **已发表 SCI/SCIE 期刊论文 2 篇｜均为共同作者**（署名：Lingxuan Zhou）  
   研究方向：发光材料、能量传递与光学应用。两本期刊均由 **SCIE（科学引文索引扩展版）**收录。
@@ -60,9 +64,6 @@
   1. [Enhanced luminescence performance of near-infrared phosphor Y₂CaAl₄SiO₁₂: Fe³⁺, Yb³⁺ through energy transfer for anti-counterfeiting applications](https://doi.org/10.1016/j.ceramint.2025.10.342). *Ceramics International*, **51** (2025), 61520–61530.
   2. [Exploring the luminescence mechanism and enabling tunable emission in Sr₃YGa₂O₇.₅: Bi³⁺, Eu³⁺ phosphors for advanced UV-converted white LEDs](https://doi.org/10.1016/j.jlumin.2025.121192). *Journal of Luminescence*, **281** (2025), 121192.
 - **重庆市级大学生创新训练项目｜高效 Cr³⁺掺杂宽带近红外光源的设计及应用研究**：第一负责人，负责项目统筹与材料高通量筛选；研究结构限域、邻位调控与能量传递，面向近红外荧光粉及 LED 器件应用。
-- **[2026 美国大学生数学建模竞赛（MCM）B 题｜月球殖民地运输规划](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics)** · **国际竞赛｜M 奖（Meritorious Winner）**，Team 2600039。太空电梯与火箭运输的多目标优化、蒙特卡洛可靠性、供水与环境分析。[完整论文](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics/blob/main/paper/2600039.pdf) · [MATLAB 源码](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics/tree/main/matlab)
-- **国际大学生物理竞赛｜2025 University Physics Competition** · **国际竞赛｜金奖（Gold Medal）**。Sasando 数字谐振器项目负责人，Team 112 / Problem A。[项目源码](https://github.com/CanNyCat17/sasando-digital-resonator) · [官方获奖论文](https://www.uphysicsc.com/2025-GM-A-112.pdf)
-- **[仿生蝴蝶｜第十二届全国大学生机械创新设计大赛](https://github.com/CanNyCat17/bionic-butterfly-stm32)** · **重庆赛区二等奖（省级）**：公开 STM32G031 + DRV8837 四电机 PWM 驱动、镜像极性修正与协同动作代码；当前代码为电机调试阶段，扑翅与飞行未验证。
 
 ## 技术与交流
 
