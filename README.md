@@ -29,6 +29,9 @@
 
 依托南京地瓜机器人生态开发部门 · **我的职责：Roboto Origin 的 S600 实机部署**
 
+<details>
+<summary>展开 S600 完整内容</summary>
+
 <a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600/tree/main/apps/s600_coprocessor"><img src="assets/s600-showcase.svg" width="100%" alt="S600 多模态部署动态流程示意，点击查看源码"></a>
 
 - **我的贡献**：负责算法适配与板端部署，联调相机、雷达、麦克风，完成 ONNX 数值校验、S600 BPU 推理及 X5/S100 离线适配。
@@ -37,10 +40,48 @@
 
 [源码与复现](https://github.com/CanNyCat17/roboto-origin-rdk-s600/tree/main/apps/s600_coprocessor) · [验证报告](https://github.com/CanNyCat17/roboto-origin-rdk-s600/blob/main/docs/S600_COPROCESSOR_DEMO.md)
 
-**开发者生态贡献**
+</details>
+
+## 开发者生态贡献
 
 - **课程交付｜已完成**：完成所负责的 RDK X5/S100 双语课程、课件与实板演示，贡献官方课程仓库。[课程贡献](https://github.com/D-Robotics/rdk-course-demos/commit/0ce864e93e8eaed061cebff69023e732961ea03e)
 - **社区技术支持｜持续开展**：以 CanNyCat 账号持续答复地瓜论坛开发问题，覆盖 SDK 编译、BPU 模型部署、相机接入及系统/网络排障；结合日志与官方资料提供诊断建议，跟进反馈并协同研发。[公开答复](https://forum.d-robotics.cc/u/cannycat/activity/replies)
+
+<table>
+<thead>
+<tr>
+<th width="50%" align="left"><h2>竞赛与项目</h2></th>
+<th width="50%" align="left"><h2>科研成果</h2></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width="50%" valign="top">
+
+<p>2026 全国大学生嵌入式芯片与系统设计竞赛 · <strong>全国总决赛二等奖</strong></p>
+<p>AdventureX 2026 黑客松 · <strong>地瓜机器人赛道二等奖（第 2 名）· superun.ai 赛道三等奖</strong></p>
+<p>2026 CIMC“西门子杯”中国智能制造挑战赛 · <strong>全国总决赛二等奖</strong></p>
+<p>2026 全国大学生集成电路创新创业大赛 · <strong>全国总决赛一等奖</strong></p>
+<p>2026 中国大学生机械工程创新创意大赛物流技术创意赛 · <strong>全国总决赛三等奖</strong></p>
+<p>第十二届全国大学生机械创新设计大赛 · <strong>重庆赛区二等奖（省级）</strong></p>
+<p>2026 Mathematical Contest in Modeling（MCM）· <strong>M 奖（Meritorious Winner）</strong></p>
+<p>2025 University Physics Competition · <strong>金奖（Gold Medal）</strong></p>
+
+</td>
+<td width="50%" valign="top">
+
+<p>Ceramics International · <strong>已发表 SCI/SCIE 论文 1 篇 · Q1 · 共同作者</strong></p>
+<p>Journal of Luminescence · <strong>已发表 SCI/SCIE 论文 1 篇 · Q2 · 共同作者</strong></p>
+<p>分区依据：JCR 2024，2025 发布。</p>
+<p>重庆市级大学生创新训练项目｜高效 Cr³⁺掺杂宽带近红外光源的设计及应用研究 · <strong>第一负责人 · 在研（2026.06–2027.06）</strong></p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+<details>
+<summary>展开竞赛与项目完整内容</summary>
 
 ## 竞赛与项目
 
@@ -80,6 +121,11 @@
 
 <sub>目录依据：嵌入式芯片与系统设计竞赛、“西门子杯”、集创赛、中国大学生机械工程创新创意大赛及机械创新设计大赛均列入《<a href="https://statics.scnu.edu.cn/pics/xsb/2025/0103/1735893141731811.pdf">2024 全国普通高校大学生竞赛分析报告</a>》竞赛目录；物流技术创意赛为机械工程创新创意大赛的<a href="https://www.cmes.org/notice/010c5f85554e440e99d702008b58a26f.html">专项赛</a>。项目标题可点击查看源码与成果。</sub>
 
+</details>
+
+<details>
+<summary>展开科研成果完整内容</summary>
+
 ## 科研成果
 
 - **已发表 SCI/SCIE 论文 2 篇，均为共同作者**：Ceramics International · **Q1**；Journal of Luminescence · **Q2**（JCR 2024，2025 发布）。
@@ -87,6 +133,8 @@
   1. [Enhanced luminescence performance of near-infrared phosphor Y₂CaAl₄SiO₁₂: Fe³⁺, Yb³⁺ through energy transfer for anti-counterfeiting applications](https://doi.org/10.1016/j.ceramint.2025.10.342). *Ceramics International*, **51** (2025), 61520–61530.
   2. [Exploring the luminescence mechanism and enabling tunable emission in Sr₃YGa₂O₇.₅: Bi³⁺, Eu³⁺ phosphors for advanced UV-converted white LEDs](https://doi.org/10.1016/j.jlumin.2025.121192). *Journal of Luminescence*, **281** (2025), 121192.
 - **重庆市级大学生创新训练项目｜高效 Cr³⁺掺杂宽带近红外光源的设计及应用研究**（2026.06–2027.06）：第一负责人，负责项目统筹与材料高通量筛选；研究结构限域、邻位调控与能量传递，面向近红外荧光粉及 LED 器件应用。
+
+</details>
 
 ## 技术与交流
 
@@ -102,7 +150,13 @@
 <details>
 <summary>更多探索与项目来源</summary>
 
-- Duck 基于 [Pollen Robotics MicroDuck](https://github.com/pollen-robotics/microduck) 与[社区飞特结构](https://github.com/fanhao375/microduck-replica-cad)。同项目陆吾 XGO-Duck 副线完成 15 轴标定与官方策略短程复现，直线保持待验证。
+### 项目来源
+
+- Duck 基于 [Pollen Robotics MicroDuck](https://github.com/pollen-robotics/microduck) 与[社区飞特结构](https://github.com/fanhao375/microduck-replica-cad)。
+
+### 支线探索
+
+- 同项目陆吾 XGO-Duck 副线完成 15 轴标定与官方策略短程复现，直线保持待验证。
 - [南瓜鸭](https://github.com/CanNyCat17/rdk-x5-microduck/tree/main/projects/pumpkin-duck)：2026-10-30 结项，保留外观设计与 Web/UE5 展示；视觉、语音及完整实体互动未完成。
 - [RDK Frontier Lab](https://github.com/CanNyCat17/rdk-frontier-lab)：个人扩展部署探索，首版完成，当前未持续维护。
 
