@@ -58,14 +58,14 @@
 <tr>
 <td width="50%" valign="top">
 
-<p>2026 全国大学生嵌入式芯片与系统设计竞赛 · <strong>全国总决赛二等奖</strong></p>
-<p>AdventureX 2026 黑客松 · <strong>地瓜机器人赛道二等奖（第 2 名）· superun.ai 赛道三等奖</strong></p>
-<p>2026 CIMC“西门子杯”中国智能制造挑战赛 · <strong>全国总决赛二等奖</strong></p>
 <p>2026 全国大学生集成电路创新创业大赛 · <strong>全国总决赛一等奖</strong></p>
+<p>2026 全国大学生嵌入式芯片与系统设计竞赛 · <strong>全国总决赛二等奖</strong></p>
+<p>2026 CIMC“西门子杯”中国智能制造挑战赛 · <strong>全国总决赛二等奖</strong></p>
 <p>2026 中国大学生机械工程创新创意大赛物流技术创意赛 · <strong>全国总决赛三等奖</strong></p>
-<p>第十二届全国大学生机械创新设计大赛 · <strong>重庆赛区二等奖（省级）</strong></p>
+<p>AdventureX 2026 黑客松 · <strong>地瓜机器人赛道二等奖（第 2 名）· superun.ai 赛道三等奖</strong></p>
 <p>2026 Mathematical Contest in Modeling（MCM）· <strong>M 奖（Meritorious Winner）</strong></p>
 <p>2025 University Physics Competition · <strong>金奖（Gold Medal）</strong></p>
+<p>第十二届全国大学生机械创新设计大赛 · <strong>重庆赛区二等奖（省级）</strong></p>
 
 </td>
 <td width="50%" valign="top">
@@ -73,7 +73,7 @@
 <p>Ceramics International · <strong>已发表 SCI/SCIE 论文 1 篇 · Q1 · 共同作者</strong></p>
 <p>Journal of Luminescence · <strong>已发表 SCI/SCIE 论文 1 篇 · Q2 · 共同作者</strong></p>
 <p>分区依据：JCR 2024，2025 发布。</p>
-<p>重庆市级大学生创新训练项目｜高效 Cr³⁺掺杂宽带近红外光源的设计及应用研究 · <strong>第一负责人 · 在研（2026.06–2027.06）</strong></p>
+<p>重庆市级大学生创新训练项目｜高效 Cr³⁺掺杂宽带近红外光源的设计及应用研究 · <strong>第一负责人 · 2026 年</strong></p>
 
 </td>
 </tr>
@@ -87,29 +87,25 @@
 
 **四项工程竞赛全国奖：一等奖 1 项 · 二等奖 2 项 · 三等奖 1 项**（集创赛、嵌入式竞赛、西门子杯、物流技术创意赛）。下列前五项项目中担任 4 项队长，负责核心软件开发与算法实现；其他竞赛奖项分别列于对应项目。
 
+- **[存储芯片 ATE/PAT 平台](https://github.com/CanNyCat17/memory-ate-pat-platform)**  
+  2026 全国大学生集成电路创新创业大赛 · **全国总决赛一等奖**<br>
+  软件与 PAT 算法负责人 · I²C/SPI 向量算法与 Electron 流式生成平台。
+
 - **[双 RDK X5 材料 AI 与具身实验助理](https://github.com/CanNyCat17/dual-rdk-x5-materials-ai-robot-lab)**  
   2026 全国大学生嵌入式芯片与系统设计竞赛 · **全国总决赛二等奖**<br>
   队长 · 材料分析、CPU/BPU 部署与 ROS 2 多机双臂软件联调。
-
-- **[RootScope｜根区灌溉舱](https://github.com/CanNyCat17/RootScope-AdventureX2026)**  
-  AdventureX 2026 黑客松 · **地瓜机器人赛道二等奖（第 2 名）· superun.ai 赛道三等奖**<br>
-  队长 · 视觉模型与 X5→STM32 探针/水泵联调。
 
 - **[Lab-Sentinel｜烧结安全哨兵](https://github.com/CanNyCat17/Lab-Sentinel-CIMC2026)**  
   2026 CIMC“西门子杯”中国智能制造挑战赛 · **全国总决赛二等奖**<br>
   队长 · GD32H759、FreeRTOS/LVGL 软件与 MCU 边缘推理优化。
 
-- **[存储芯片 ATE/PAT 平台](https://github.com/CanNyCat17/memory-ate-pat-platform)**  
-  2026 全国大学生集成电路创新创业大赛 · **全国总决赛一等奖**<br>
-  软件与 PAT 算法负责人 · I²C/SPI 向量算法与 Electron 流式生成平台。
-
 - **[自主散料搬运机器人](https://github.com/CanNyCat17/intelligent-vision-logistics-crane-2026)**  
   2026 中国大学生机械工程创新创意大赛物流技术创意赛 · **全国总决赛三等奖**<br>
   队长 · Jetson 视觉、ROS 2 导航及串口联调。
 
-- **[仿生蝴蝶｜四电机协同控制](https://github.com/CanNyCat17/bionic-butterfly-stm32)**<br>
-  第十二届全国大学生机械创新设计大赛 · **重庆赛区二等奖（省级）**<br>
-  开源实现 · STM32G031 + DRV8837 四电机 PWM 驱动、镜像极性修正与协同动作；当前为电机调试阶段，扑翅与飞行未验证。
+- **[RootScope｜根区灌溉舱](https://github.com/CanNyCat17/RootScope-AdventureX2026)**  
+  AdventureX 2026 黑客松 · **地瓜机器人赛道二等奖（第 2 名）· superun.ai 赛道三等奖**<br>
+  队长 · 视觉模型与 X5→STM32 探针/水泵联调。
 
 - **[美国大学生数学建模竞赛｜月球殖民地运输规划](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics)**<br>
   2026 Mathematical Contest in Modeling（MCM）· **M 奖（Meritorious Winner）**<br>
@@ -118,6 +114,10 @@
 - **[国际大学生物理竞赛｜Sasando 数字谐振器](https://github.com/CanNyCat17/sasando-digital-resonator)**<br>
   2025 University Physics Competition · **金奖（Gold Medal）**<br>
   项目负责人 · Problem A / Team 112。[论文](https://www.uphysicsc.com/2025-GM-A-112.pdf) · [源码](https://github.com/CanNyCat17/sasando-digital-resonator)
+
+- **[仿生蝴蝶｜四电机协同控制](https://github.com/CanNyCat17/bionic-butterfly-stm32)**<br>
+  第十二届全国大学生机械创新设计大赛 · **重庆赛区二等奖（省级）**<br>
+  开源实现 · STM32G031 + DRV8837 四电机 PWM 驱动、镜像极性修正与协同动作；当前为电机调试阶段，扑翅与飞行未验证。
 
 <sub>目录依据：嵌入式芯片与系统设计竞赛、“西门子杯”、集创赛、中国大学生机械工程创新创意大赛及机械创新设计大赛均列入《<a href="https://statics.scnu.edu.cn/pics/xsb/2025/0103/1735893141731811.pdf">2024 全国普通高校大学生竞赛分析报告</a>》竞赛目录；物流技术创意赛为机械工程创新创意大赛的<a href="https://www.cmes.org/notice/010c5f85554e440e99d702008b58a26f.html">专项赛</a>。项目标题可点击查看源码与成果。</sub>
 
@@ -132,7 +132,7 @@
 
   1. [Enhanced luminescence performance of near-infrared phosphor Y₂CaAl₄SiO₁₂: Fe³⁺, Yb³⁺ through energy transfer for anti-counterfeiting applications](https://doi.org/10.1016/j.ceramint.2025.10.342). *Ceramics International*, **51** (2025), 61520–61530.
   2. [Exploring the luminescence mechanism and enabling tunable emission in Sr₃YGa₂O₇.₅: Bi³⁺, Eu³⁺ phosphors for advanced UV-converted white LEDs](https://doi.org/10.1016/j.jlumin.2025.121192). *Journal of Luminescence*, **281** (2025), 121192.
-- **重庆市级大学生创新训练项目｜高效 Cr³⁺掺杂宽带近红外光源的设计及应用研究**（2026.06–2027.06）：第一负责人，负责项目统筹与材料高通量筛选；研究结构限域、邻位调控与能量传递，面向近红外荧光粉及 LED 器件应用。
+- **重庆市级大学生创新训练项目｜高效 Cr³⁺掺杂宽带近红外光源的设计及应用研究**（2026 年）：第一负责人，负责项目统筹与材料高通量筛选；研究结构限域、邻位调控与能量传递，面向近红外荧光粉及 LED 器件应用。
 
 </details>
 
