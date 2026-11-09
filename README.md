@@ -73,7 +73,7 @@
 <p><a href="https://github.com/CanNyCat17/dual-rdk-x5-materials-ai-robot-lab">2026 全国大学生嵌入式芯片与系统设计竞赛</a> · <strong>全国总决赛二等奖</strong></p>
 <p><a href="https://github.com/CanNyCat17/Lab-Sentinel-CIMC2026">2026 CIMC“西门子杯”中国智能制造挑战赛</a> · <strong>全国总决赛二等奖</strong></p>
 <p><a href="https://github.com/CanNyCat17/intelligent-vision-logistics-crane-2026">2026 中国大学生机械工程创新创意大赛物流技术创意赛</a> · <strong>全国总决赛三等奖</strong></p>
-<p><a href="https://github.com/CanNyCat17/RootScope-AdventureX2026">AdventureX 2026 黑客松</a> · <strong>地瓜机器人赛道二等奖（第 2 名）· superun.ai 赛道三等奖</strong></p>
+<p><a href="https://github.com/CanNyCat17/RootScope-AdventureX2026">2026 AdventureX 黑客松</a> · <strong>地瓜机器人赛道二等奖（第 2 名）· superun.ai 赛道三等奖</strong></p>
 <p><a href="https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics">2026 美国大学生数学建模竞赛（MCM）</a> · <strong>M 奖（Meritorious Winner）</strong></p>
 <p><a href="https://github.com/CanNyCat17/sasando-digital-resonator">2025 国际大学生物理竞赛（University Physics Competition）</a> · <strong>金奖（Gold Medal）</strong></p>
 <p><a href="https://github.com/CanNyCat17/bionic-butterfly-stm32">第十二届全国大学生机械创新设计大赛</a> · <strong>重庆赛区二等奖（省级）</strong></p>
@@ -100,7 +100,7 @@
   队长 · Jetson 视觉、ROS 2 导航及串口联调。
 
 - **[RootScope｜根区灌溉舱](https://github.com/CanNyCat17/RootScope-AdventureX2026)**  
-  AdventureX 2026 黑客松 · **地瓜机器人赛道二等奖（第 2 名）· superun.ai 赛道三等奖**<br>
+  2026 AdventureX 黑客松 · **地瓜机器人赛道二等奖（第 2 名）· superun.ai 赛道三等奖**<br>
   队长 · 视觉模型与 X5→STM32 探针/水泵联调。
 
 - **[美国大学生数学建模竞赛｜月球殖民地运输规划](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics)**<br>
