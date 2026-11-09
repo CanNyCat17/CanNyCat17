@@ -60,13 +60,13 @@
 <table>
 <thead>
 <tr>
-<th width="50%" align="left"><h2>竞赛与项目</h2></th>
-<th width="50%" align="left"><h2>科研成果</h2></th>
+<th width="70%" align="left"><h2>竞赛与项目</h2></th>
+<th width="30%" align="left"><h2>科研成果</h2></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td width="50%" valign="top">
+<td width="70%" valign="top">
 
 <p><strong>工程竞赛全国奖 4 项</strong>：一等奖 1 项、二等奖 2 项、三等奖 1 项。</p>
 <p><a href="https://github.com/CanNyCat17/memory-ate-pat-platform">2026 全国大学生集成电路创新创业大赛</a> · <strong>全国总决赛一等奖</strong></p>
@@ -120,7 +120,7 @@
 </details>
 
 </td>
-<td width="50%" valign="top">
+<td width="30%" valign="top">
 
 <p><strong>SCI/SCIE 论文 2 篇 · 均为共同作者</strong></p>
 <p><a href="https://doi.org/10.1016/j.ceramint.2025.10.342">Ceramics International</a> · <strong>Q1</strong><br>
