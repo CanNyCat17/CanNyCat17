@@ -76,7 +76,7 @@
 <p><a href="https://github.com/CanNyCat17/RootScope-AdventureX2026">2026 AdventureX 黑客松</a> · <strong>地瓜机器人赛道二等奖（第 2 名）· superun.ai 赛道三等奖</strong></p>
 <p><a href="https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics">2026 美国大学生数学建模竞赛（MCM）</a> · <strong>M 奖（Meritorious Winner）</strong></p>
 <p><a href="https://github.com/CanNyCat17/sasando-digital-resonator">2025 国际大学生物理竞赛（University Physics Competition）</a> · <strong>金奖（Gold Medal）</strong></p>
-<p><a href="https://github.com/CanNyCat17/bionic-butterfly-stm32">第十二届全国大学生机械创新设计大赛</a> · <strong>重庆赛区二等奖（省级）</strong></p>
+<p><a href="https://github.com/CanNyCat17/bionic-butterfly-stm32">2026 第十二届全国大学生机械创新设计大赛</a> · <strong>重庆赛区二等奖（省级）</strong></p>
 
 <details>
 <summary>赛事全名与个人贡献</summary>
@@ -112,7 +112,7 @@
   项目负责人 · Problem A / Team 112。[论文](https://www.uphysicsc.com/2025-GM-A-112.pdf) · [源码](https://github.com/CanNyCat17/sasando-digital-resonator)
 
 - **[仿生蝴蝶｜四电机协同控制](https://github.com/CanNyCat17/bionic-butterfly-stm32)**<br>
-  第十二届全国大学生机械创新设计大赛 · **重庆赛区二等奖（省级）**<br>
+  2026 第十二届全国大学生机械创新设计大赛 · **重庆赛区二等奖（省级）**<br>
   开源实现 · STM32G031 + DRV8837 四电机 PWM 驱动、镜像极性修正与协同动作；当前为电机调试阶段，扑翅与飞行未验证。
 
 <sub>目录依据：嵌入式芯片与系统设计竞赛、“西门子杯”、集创赛、中国大学生机械工程创新创意大赛及机械创新设计大赛均列入《<a href="https://statics.scnu.edu.cn/pics/xsb/2025/0103/1735893141731811.pdf">2024 全国普通高校大学生竞赛分析报告</a>》竞赛目录；物流技术创意赛为机械工程创新创意大赛的<a href="https://www.cmes.org/notice/010c5f85554e440e99d702008b58a26f.html">专项赛</a>。项目标题可点击查看源码与成果。</sub>
