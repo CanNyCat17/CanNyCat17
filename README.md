@@ -11,36 +11,45 @@
 
 ## 代表作品
 
-### [RDK X5 Duck｜机器人集成与开源复刻](https://github.com/CanNyCat17/rdk-x5-microduck)
+依托南京地瓜机器人生态开发部门
 
-依托南京地瓜机器人生态开发部门 · **我的职责：Duck 项目主要负责人**
-
-<a href="https://github.com/CanNyCat17/rdk-x5-microduck/blob/main/docs/CURRENT_PROTOTYPE.md"><img src="assets/duck-hero-20261106.png" width="100%" alt="RDK X5 Duck 航模电池方案验证成功，点击查看最新进度"></a>
-
-- **我的贡献**：主导 15 轴整机集成、Linux/Python 控制及总线与 IMU 联调，开发 Web 调参、安全复位与分阶段颈部控制。
-- **交付成果**：双电池全机载短距离前进；公开软件、机械资料、MuJoCo 教学仿真及 **24 章完整复刻手册**。
-- **验证边界**：短距离成果采用目标序列与颈部时序控制；航模电池＋5V UBEC 方案已验证，等待新 Hub 与线束，稳定行走及 RL 实机闭环仍待验证。
-
-<sub>下一阶段：面向 2026 DDC／地瓜机器人黑客松，目标 12 月 4 日推进行走、夹取、睡眠唤醒与语音视觉互动；采用 X5 外挂方案，暂不推进高冲击动作，当前行走视频保持原版。<a href="https://github.com/CanNyCat17/rdk-x5-microduck/tree/main/progress/2026-11-06">最新进度与 BOM</a></sub>
-
-[实机视频](https://github.com/CanNyCat17/rdk-x5-microduck/blob/main/media/20261023/onboard-short-walk.mp4) · [源码与 DEMO](https://github.com/CanNyCat17/rdk-x5-microduck/tree/main/software) · [复刻手册](https://github.com/CanNyCat17/rdk-x5-microduck/blob/main/docs/FULL_SOLUTION.md) · [地瓜社区](https://forum.d-robotics.cc/t/topic/35728/1)
-
-### [RDK S600｜多模态感知与实机部署](https://github.com/CanNyCat17/roboto-origin-rdk-s600)
-
-依托南京地瓜机器人生态开发部门 · **我的职责：Roboto Origin 的 S600 实机部署**
-
+<table>
+<tr>
+<th width="50%" align="left"><a href="https://github.com/CanNyCat17/rdk-x5-microduck">RDK X5 Duck</a><br>机器人集成与开源复刻</th>
+<th width="50%" align="left"><a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600">RDK S600</a><br>多模态感知与实机部署</th>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/CanNyCat17/rdk-x5-microduck/blob/main/docs/CURRENT_PROTOTYPE.md"><img src="assets/duck-hero-20261106.png" width="100%" alt="RDK X5 Duck 实机与最新进度"></a></td>
+<td width="50%" valign="top"><a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600/tree/main/apps/s600_coprocessor"><img src="assets/s600-showcase.svg" width="100%" alt="S600 多模态部署动态流程示意"></a></td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<p><strong>职责</strong> · Duck 项目主要负责人</p>
+<p><strong>成果</strong> · 15 轴整机集成、双电池全机载短距离前进；交付 <strong>24 章复刻手册</strong>。</p>
+<p><sub>稳定行走与 RL 实机闭环待验证。</sub></p>
+<p><a href="https://github.com/CanNyCat17/rdk-x5-microduck/tree/main/software">源码</a> · <a href="https://github.com/CanNyCat17/rdk-x5-microduck/blob/main/docs/FULL_SOLUTION.md">手册</a> · <a href="https://github.com/CanNyCat17/rdk-x5-microduck/blob/main/media/20261023/onboard-short-walk.mp4">视频</a></p>
 <details>
-<summary>展开 S600 完整内容</summary>
-
-<a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600/tree/main/apps/s600_coprocessor"><img src="assets/s600-showcase.svg" width="100%" alt="S600 多模态部署动态流程示意，点击查看源码"></a>
-
-- **我的贡献**：负责算法适配与板端部署，联调相机、雷达、麦克风，完成 ONNX 数值校验、S600 BPU 推理及 X5/S100 离线适配。
-- **交付成果**：YOLO 分割、Qwen3-VL 图片问答与 Whisper 转写演示；两分钟真实相机分割约 **19.2 FPS**。
-- **验证边界**：已完成感知与多模态实机演示，自主导航与整机运动闭环尚未验收。
-
-[源码与复现](https://github.com/CanNyCat17/roboto-origin-rdk-s600/tree/main/apps/s600_coprocessor) · [验证报告](https://github.com/CanNyCat17/roboto-origin-rdk-s600/blob/main/docs/S600_COPROCESSOR_DEMO.md)
-
+<summary>贡献与验证详情</summary>
+<p><strong>我的贡献：</strong>主导 15 轴整机集成、Linux/Python 控制及总线与 IMU 联调，开发 Web 调参、安全复位与分阶段颈部控制。</p>
+<p><strong>开源交付：</strong>软件、机械资料、MuJoCo 教学仿真及 24 章完整复刻手册。<a href="https://forum.d-robotics.cc/t/topic/35728/1">地瓜社区</a></p>
+<p><strong>验证范围：</strong>短距离成果采用目标序列与颈部时序控制；航模电池＋5V UBEC 方案已验证，等待新 Hub 与线束，稳定行走及 RL 实机闭环仍待验证。</p>
+<p><strong>下一阶段：</strong>面向 2026 DDC／地瓜机器人黑客松，目标 12 月 4 日推进行走、夹取、睡眠唤醒与语音视觉互动；采用 X5 外挂方案，暂不推进高冲击动作，当前行走视频保持原版。<a href="https://github.com/CanNyCat17/rdk-x5-microduck/tree/main/progress/2026-11-06">最新进度与 BOM</a></p>
 </details>
+</td>
+<td width="50%" valign="top">
+<p><strong>职责</strong> · Roboto Origin 的 S600 实机部署</p>
+<p><strong>成果</strong> · YOLO 分割、Qwen3-VL 图片问答与 Whisper 转写；两分钟相机分割约 <strong>19.2 FPS</strong>。</p>
+<p><sub>自主导航与整机运动闭环待验收。</sub></p>
+<p><a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600/tree/main/apps/s600_coprocessor">源码</a> · <a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600/blob/main/docs/S600_COPROCESSOR_DEMO.md">验证报告</a></p>
+<details>
+<summary>贡献与验证详情</summary>
+<p><strong>我的贡献：</strong>负责算法适配与板端部署，联调相机、雷达、麦克风，完成 ONNX 数值校验、S600 BPU 推理及 X5/S100 离线适配。</p>
+<p><strong>交付成果：</strong>YOLO 分割、Qwen3-VL 图片问答与 Whisper 转写演示；两分钟真实相机分割约 19.2 FPS。</p>
+<p><strong>验证范围：</strong>已完成感知与多模态实机演示，自主导航与整机运动闭环尚未验收。</p>
+</details>
+</td>
+</tr>
+</table>
 
 ## 开发者生态贡献
 
