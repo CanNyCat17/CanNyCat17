@@ -2,8 +2,8 @@
 
 **机器人软件 · 端侧 AI · 嵌入式 Linux**
 
-重庆邮电大学 · 集成电路设计与集成系统 · **2028 届本科**  
-地瓜机器人（D-Robotics）开发者生态部 · **RDK 生态开发实习生** · 2026.08–至今
+**重庆邮电大学 · 2028 届本科**｜集成电路设计与集成系统  
+**地瓜机器人 · RDK 生态开发实习生**｜开发者生态部 · 2026.08–至今
 
 从模型部署、传感器与执行器接入，到实机排障与开源交付。
 
@@ -34,6 +34,7 @@
 <p><strong>开源交付：</strong>软件、机械资料、MuJoCo 教学仿真及 24 章完整复刻手册。<a href="https://forum.d-robotics.cc/t/topic/35728/1">地瓜社区</a></p>
 <p><strong>验证范围：</strong>短距离成果采用目标序列与颈部时序控制；航模电池＋5V UBEC 方案已验证，等待新 Hub 与线束，稳定行走及 RL 实机闭环仍待验证。</p>
 <p><strong>下一阶段：</strong>面向 2026 DDC／地瓜机器人黑客松，目标 12 月 4 日推进行走、夹取、睡眠唤醒与语音视觉互动；采用 X5 外挂方案，暂不推进高冲击动作，当前行走视频保持原版。<a href="https://github.com/CanNyCat17/rdk-x5-microduck/tree/main/progress/2026-11-06">最新进度与 BOM</a></p>
+<p><strong>项目来源：</strong>基于 <a href="https://github.com/pollen-robotics/microduck">Pollen Robotics MicroDuck</a> 与<a href="https://github.com/fanhao375/microduck-replica-cad">社区飞特结构</a>。</p>
 </details>
 </td>
 <td width="50%" valign="top">
@@ -53,8 +54,10 @@
 
 ## 开发者生态贡献
 
-- **课程交付｜已完成**：完成所负责的 RDK X5/S100 双语课程、课件与实板演示，贡献官方课程仓库。[课程贡献](https://github.com/D-Robotics/rdk-course-demos/commit/0ce864e93e8eaed061cebff69023e732961ea03e)
-- **社区技术支持｜持续开展**：以 CanNyCat 账号持续答复地瓜论坛开发问题，覆盖 SDK 编译、BPU 模型部署、相机接入及系统/网络排障；结合日志与官方资料提供诊断建议，跟进反馈并协同研发。[公开答复](https://forum.d-robotics.cc/u/cannycat/activity/replies)
+- **课程交付 · 已完成**  
+  交付所负责的 RDK X5/S100 双语课程、课件与实板样例，贡献官方课程仓库。[课程贡献 ↗](https://github.com/D-Robotics/rdk-course-demos/commit/0ce864e93e8eaed061cebff69023e732961ea03e)
+- **社区支持 · 持续开展**  
+  持续开展 SDK、BPU、相机及系统问题诊断，跟进论坛反馈并协同研发。[公开答复 ↗](https://forum.d-robotics.cc/u/cannycat/activity/replies)
 
 <table>
 <thead>
@@ -147,28 +150,15 @@
 
 ## 技术与交流
 
-**软件与系统**　C/C++ · Python · Linux · Git · Docker  
-**端侧 AI**　PyTorch · ONNX · OpenCV · OpenExplorer · RDK CPU/BPU 部署  
-**机器人与嵌入式**　ROS 2 · Nav2/SLAM · STM32/GD32 · FreeRTOS/LVGL · UART/I²C/SPI/CAN
+**机器人集成**　Linux/Python · 舵机总线与 IMU 联调 · Web 调参与复位 · MuJoCo 仿真  
+**端侧 AI 部署**　PyTorch/ONNX · 数值校验 · RDK CPU/BPU · 视觉、图文与语音模型  
+**嵌入式开发**　C/C++ · STM32/GD32 · FreeRTOS/LVGL · UART/I²C/SPI/CAN  
+**机器人应用**　ROS 2 · Jetson 视觉与导航联调 · 多机协同
 
-**项目合作**：欢迎机器人、嵌入式与端侧 AI 共建，期待机械、硬件电控及运动控制方向伙伴。  
-**实习招聘**：关注嵌入式 Linux、端侧 AI 部署与机器人软件岗位；可通过邮件索取最新版简历。
+**合作与实习**  
+项目共建：机器人、嵌入式与端侧 AI，欢迎机械、硬件电控及运动控制伙伴。  
+实习方向：嵌入式 Linux · 端侧 AI 部署 · 机器人软件。
 
-**[3773318175@qq.com](mailto:3773318175@qq.com)** · 项目使用问题与改进建议欢迎提交对应仓库 Issue。
+**[3773318175@qq.com](mailto:3773318175@qq.com)** · 邮件索取最新版简历 · 项目问题请提交对应仓库 Issue。
 
-<details>
-<summary>更多探索与项目来源</summary>
-
-### 项目来源
-
-- Duck 基于 [Pollen Robotics MicroDuck](https://github.com/pollen-robotics/microduck) 与[社区飞特结构](https://github.com/fanhao375/microduck-replica-cad)。
-
-### 支线探索
-
-- 同项目陆吾 XGO-Duck 副线完成 15 轴标定与官方策略短程复现，直线保持待验证。
-- [南瓜鸭](https://github.com/CanNyCat17/rdk-x5-microduck/tree/main/projects/pumpkin-duck)：2026-10-30 结项，保留外观设计与 Web/UE5 展示；视觉、语音及完整实体互动未完成。
-- [RDK Frontier Lab](https://github.com/CanNyCat17/rdk-frontier-lab)：个人扩展部署探索，首版完成，当前未持续维护。
-
-</details>
-
-<sub>更新于 2026-11-06 · 实机阶段与验证范围详见各项目仓库。</sub>
+<sub>更新于 2026-11-09 · 实机阶段与验证范围详见各项目仓库。</sub>
