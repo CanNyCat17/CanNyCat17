@@ -69,14 +69,14 @@
 <td width="50%" valign="top">
 
 <p><strong>工程竞赛全国奖 4 项</strong>：一等奖 1 项、二等奖 2 项、三等奖 1 项。</p>
-<p><a href="https://github.com/CanNyCat17/memory-ate-pat-platform">集创赛 · ATE/PAT 平台</a>｜<strong>全国一等奖</strong><br>
-<a href="https://github.com/CanNyCat17/dual-rdk-x5-materials-ai-robot-lab">嵌入式竞赛 · 双 X5 实验助理</a>｜<strong>全国二等奖</strong><br>
-<a href="https://github.com/CanNyCat17/Lab-Sentinel-CIMC2026">西门子杯 · Lab-Sentinel</a>｜<strong>全国二等奖</strong><br>
-<a href="https://github.com/CanNyCat17/intelligent-vision-logistics-crane-2026">物流技术创意赛 · 搬运机器人</a>｜<strong>全国三等奖</strong></p>
-<p><a href="https://github.com/CanNyCat17/RootScope-AdventureX2026">AdventureX · RootScope</a>｜地瓜赛道<strong>二等奖（第 2 名）</strong>、superun.ai 赛道<strong>三等奖</strong><br>
-<a href="https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics">2026 MCM · 月球运输规划</a>｜<strong>M 奖</strong><br>
-<a href="https://github.com/CanNyCat17/sasando-digital-resonator">2025 国际大学生物理竞赛</a>｜<strong>金奖</strong><br>
-<a href="https://github.com/CanNyCat17/bionic-butterfly-stm32">机械创新设计大赛 · 仿生蝴蝶</a>｜<strong>重庆赛区二等奖（省级）</strong></p>
+<p><a href="https://github.com/CanNyCat17/memory-ate-pat-platform">2026 全国大学生集成电路创新创业大赛</a> · <strong>全国总决赛一等奖</strong></p>
+<p><a href="https://github.com/CanNyCat17/dual-rdk-x5-materials-ai-robot-lab">2026 全国大学生嵌入式芯片与系统设计竞赛</a> · <strong>全国总决赛二等奖</strong></p>
+<p><a href="https://github.com/CanNyCat17/Lab-Sentinel-CIMC2026">2026 CIMC“西门子杯”中国智能制造挑战赛</a> · <strong>全国总决赛二等奖</strong></p>
+<p><a href="https://github.com/CanNyCat17/intelligent-vision-logistics-crane-2026">2026 中国大学生机械工程创新创意大赛物流技术创意赛</a> · <strong>全国总决赛三等奖</strong></p>
+<p><a href="https://github.com/CanNyCat17/RootScope-AdventureX2026">AdventureX 2026 黑客松</a> · <strong>地瓜机器人赛道二等奖（第 2 名）· superun.ai 赛道三等奖</strong></p>
+<p><a href="https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics">2026 美国大学生数学建模竞赛（MCM）</a> · <strong>M 奖（Meritorious Winner）</strong></p>
+<p><a href="https://github.com/CanNyCat17/sasando-digital-resonator">2025 国际大学生物理竞赛（University Physics Competition）</a> · <strong>金奖（Gold Medal）</strong></p>
+<p><a href="https://github.com/CanNyCat17/bionic-butterfly-stm32">第十二届全国大学生机械创新设计大赛</a> · <strong>重庆赛区二等奖（省级）</strong></p>
 
 <details>
 <summary>赛事全名与个人贡献</summary>
