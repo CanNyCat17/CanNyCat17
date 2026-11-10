@@ -15,7 +15,7 @@
 
 <table>
 <tr>
-<th width="50%" align="left"><a href="https://github.com/CanNyCat17/rdk-x5-microduck">RDK X5 Duck</a> · <a href="https://github.com/CanNyCat17/rdk-x5-microduck/stargazers">★ 36</a><br>机器人集成与开源复刻</th>
+<th width="50%" align="left"><a href="https://github.com/CanNyCat17/rdk-x5-microduck">RDK X5 Duck</a> · <a href="https://github.com/CanNyCat17/rdk-x5-microduck/stargazers">★ 46</a><br>机器人集成与开源复刻</th>
 <th width="50%" align="left"><a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600">RDK S600</a><br>多模态感知与实机部署</th>
 </tr>
 <tr>
@@ -74,7 +74,7 @@
 <p><a href="https://github.com/CanNyCat17/Lab-Sentinel-CIMC2026">2026 CIMC“西门子杯”中国智能制造挑战赛</a> · <strong>全国总决赛二等奖</strong>｜队长</p>
 <p><a href="https://github.com/CanNyCat17/intelligent-vision-logistics-crane-2026">2026 中国大学生机械工程创新创意大赛物流技术创意赛</a> · <strong>全国总决赛三等奖</strong>｜队长</p>
 <p><a href="https://github.com/CanNyCat17/RootScope-AdventureX2026">2026 AdventureX 黑客松</a> · <strong>地瓜机器人赛道二等奖</strong>｜队长</p>
-<p><a href="https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics">2026 Mathematical Contest in Modeling (MCM)</a> · <strong>Meritorious Winner</strong></p>
+<p><a href="https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics">2026 Mathematical Contest in Modeling</a> · <strong>Meritorious Winner</strong></p>
 <p><a href="https://github.com/CanNyCat17/sasando-digital-resonator">2025 University Physics Competition</a> · <strong>Gold Medal</strong></p>
 <p><a href="https://github.com/CanNyCat17/bionic-butterfly-stm32">2026 第十二届全国大学生机械创新设计大赛</a> · <strong>重庆赛区二等奖</strong></p>
 
@@ -104,7 +104,7 @@
   队长 · 视觉模型与 X5→STM32 探针/水泵联调。
 
 - **[美国大学生数学建模竞赛｜月球殖民地运输规划](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics)**<br>
-  2026 Mathematical Contest in Modeling（MCM）· **M 奖（Meritorious Winner）**<br>
+  2026 Mathematical Contest in Modeling · **M 奖（Meritorious Winner）**<br>
   B 题 · 多目标运输优化、蒙特卡洛可靠性分析。[论文](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics/blob/main/paper/2600039.pdf) · [源码](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics/tree/main/matlab)
 
 - **[国际大学生物理竞赛｜Sasando 数字谐振器](https://github.com/CanNyCat17/sasando-digital-resonator)**<br>
@@ -153,4 +153,4 @@
 
 **[3773318175@qq.com](mailto:3773318175@qq.com)** · 邮件索取最新版简历 · 项目问题请提交对应仓库 Issue。
 
-<sub>更新于 2026-11-10 · 星数统计于 2026-11-09，实时数量见仓库 · 实机阶段与验证范围详见各项目仓库。</sub>
+<sub>更新于 2026-11-10 · 星数统计于 2026-11-10，实时数量见仓库 · 实机阶段与验证范围详见各项目仓库。</sub>
