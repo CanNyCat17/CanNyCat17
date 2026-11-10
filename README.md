@@ -69,14 +69,14 @@
 <td width="70%" valign="top">
 
 <p><strong>工程竞赛全国奖 4 项</strong>：一等奖 1 项、二等奖 2 项、三等奖 1 项。</p>
-<p><a href="https://github.com/CanNyCat17/memory-ate-pat-platform">2026 全国大学生集成电路创新创业大赛</a> · <strong>全国总决赛一等奖</strong></p>
-<p><a href="https://github.com/CanNyCat17/dual-rdk-x5-materials-ai-robot-lab">2026 全国大学生嵌入式芯片与系统设计竞赛</a> · <strong>全国总决赛二等奖</strong></p>
-<p><a href="https://github.com/CanNyCat17/Lab-Sentinel-CIMC2026">2026 CIMC“西门子杯”中国智能制造挑战赛</a> · <strong>全国总决赛二等奖</strong></p>
-<p><a href="https://github.com/CanNyCat17/intelligent-vision-logistics-crane-2026">2026 中国大学生机械工程创新创意大赛物流技术创意赛</a> · <strong>全国总决赛三等奖</strong></p>
-<p><a href="https://github.com/CanNyCat17/RootScope-AdventureX2026">2026 AdventureX 黑客松</a> · <strong>地瓜机器人赛道二等奖（第 2 名）· superun.ai 赛道三等奖</strong></p>
-<p><a href="https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics">2026 美国大学生数学建模竞赛（MCM）</a> · <strong>M 奖（Meritorious Winner）</strong></p>
-<p><a href="https://github.com/CanNyCat17/sasando-digital-resonator">2025 国际大学生物理竞赛（University Physics Competition）</a> · <strong>金奖（Gold Medal）</strong></p>
-<p><a href="https://github.com/CanNyCat17/bionic-butterfly-stm32">2026 第十二届全国大学生机械创新设计大赛</a> · <strong>重庆赛区二等奖（省级）</strong></p>
+<p><a href="https://github.com/CanNyCat17/memory-ate-pat-platform">2026 全国大学生集成电路创新创业大赛</a> · <strong>全国总决赛一等奖</strong>｜成员</p>
+<p><a href="https://github.com/CanNyCat17/dual-rdk-x5-materials-ai-robot-lab">2026 全国大学生嵌入式芯片与系统设计竞赛</a> · <strong>全国总决赛二等奖</strong>｜队长</p>
+<p><a href="https://github.com/CanNyCat17/Lab-Sentinel-CIMC2026">2026 CIMC“西门子杯”中国智能制造挑战赛</a> · <strong>全国总决赛二等奖</strong>｜队长</p>
+<p><a href="https://github.com/CanNyCat17/intelligent-vision-logistics-crane-2026">2026 中国大学生机械工程创新创意大赛物流技术创意赛</a> · <strong>全国总决赛三等奖</strong>｜队长</p>
+<p><a href="https://github.com/CanNyCat17/RootScope-AdventureX2026">2026 AdventureX 黑客松</a> · <strong>地瓜机器人赛道二等奖</strong>｜队长</p>
+<p><a href="https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics">2026 Mathematical Contest in Modeling (MCM)</a> · <strong>Meritorious Winner</strong></p>
+<p><a href="https://github.com/CanNyCat17/sasando-digital-resonator">2025 University Physics Competition</a> · <strong>Gold Medal</strong></p>
+<p><a href="https://github.com/CanNyCat17/bionic-butterfly-stm32">2026 第十二届全国大学生机械创新设计大赛</a> · <strong>重庆赛区二等奖</strong></p>
 
 <details>
 <summary>赛事全名与个人贡献</summary>
@@ -122,12 +122,8 @@
 </td>
 <td width="30%" valign="top">
 
-<p><strong>SCI/SCIE 论文 2 篇 · 均为共同作者</strong></p>
-<p><a href="https://doi.org/10.1016/j.ceramint.2025.10.342">Ceramics International</a> · <strong>Q1</strong><br>
-<a href="https://doi.org/10.1016/j.jlumin.2025.121192">Journal of Luminescence</a> · <strong>Q2</strong>（JCR 2024）</p>
-<p><strong>重庆市级大学生创新训练项目</strong><br>
-第一负责人 · 2026 年<br>
-Cr³⁺ 近红外荧光材料设计与应用</p>
+<p><strong>SCI/SCIE 论文 2 篇 · Co-author</strong>：<a href="https://doi.org/10.1016/j.ceramint.2025.10.342">Ceramics International</a> <strong>Q1</strong>；<a href="https://doi.org/10.1016/j.jlumin.2025.121192">Journal of Luminescence</a> <strong>Q2</strong>（JCR 2024）</p>
+<p><strong>2026 重庆市级大学生创新训练项目</strong>｜第一负责人</p>
 
 <details>
 <summary>论文题名与科研职责</summary>
@@ -157,4 +153,4 @@ Cr³⁺ 近红外荧光材料设计与应用</p>
 
 **[3773318175@qq.com](mailto:3773318175@qq.com)** · 邮件索取最新版简历 · 项目问题请提交对应仓库 Issue。
 
-<sub>更新于 2026-11-09 · 星数截至更新日，实时数量见仓库 · 实机阶段与验证范围详见各项目仓库。</sub>
+<sub>更新于 2026-11-10 · 星数统计于 2026-11-09，实时数量见仓库 · 实机阶段与验证范围详见各项目仓库。</sub>
