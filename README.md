@@ -15,7 +15,7 @@
 
 <table>
 <tr>
-<th width="50%" align="left"><a href="https://github.com/CanNyCat17/rdk-x5-microduck">RDK X5 Duck</a> · <a href="https://github.com/CanNyCat17/rdk-x5-microduck/stargazers">★ 46</a><br>机器人集成与开源复刻</th>
+<th width="50%" align="left"><a href="https://github.com/CanNyCat17/rdk-x5-microduck">RDK X5 Duck</a> · <a href="https://github.com/CanNyCat17/rdk-x5-microduck/stargazers">★ 51</a><br>机器人集成与开源复刻</th>
 <th width="50%" align="left"><a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600">RDK S600</a><br>多模态感知与实机部署</th>
 </tr>
 <tr>
@@ -74,9 +74,9 @@
 <p><a href="https://github.com/CanNyCat17/Lab-Sentinel-CIMC2026">2026 CIMC“西门子杯”中国智能制造挑战赛</a> · <strong>全国总决赛二等奖</strong>｜队长</p>
 <p><a href="https://github.com/CanNyCat17/intelligent-vision-logistics-crane-2026">2026 中国大学生机械工程创新创意大赛物流技术创意赛</a> · <strong>全国总决赛三等奖</strong>｜队长</p>
 <p><a href="https://github.com/CanNyCat17/RootScope-AdventureX2026">2026 AdventureX 黑客松</a> · <strong>地瓜机器人赛道二等奖</strong>｜队长</p>
+<p><a href="https://github.com/CanNyCat17/bionic-butterfly-stm32">2026 全国大学生机械创新设计大赛</a> · <strong>重庆赛区二等奖</strong></p>
 <p><a href="https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics">2026 Mathematical Contest in Modeling</a> · <strong>Meritorious Winner</strong></p>
 <p><a href="https://github.com/CanNyCat17/sasando-digital-resonator">2025 University Physics Competition</a> · <strong>Gold Medal</strong></p>
-<p><a href="https://github.com/CanNyCat17/bionic-butterfly-stm32">2026 第十二届全国大学生机械创新设计大赛</a> · <strong>重庆赛区二等奖</strong></p>
 
 <details>
 <summary>赛事全名与个人贡献</summary>
@@ -112,7 +112,7 @@
   项目负责人 · Problem A / Team 112。[论文](https://www.uphysicsc.com/2025-GM-A-112.pdf) · [源码](https://github.com/CanNyCat17/sasando-digital-resonator)
 
 - **[仿生蝴蝶｜四电机协同控制](https://github.com/CanNyCat17/bionic-butterfly-stm32)**<br>
-  2026 第十二届全国大学生机械创新设计大赛 · **重庆赛区二等奖（省级）**<br>
+  2026 全国大学生机械创新设计大赛 · **重庆赛区二等奖（省级）**<br>
   开源实现 · STM32G031 + DRV8837 四电机 PWM 驱动、镜像极性修正与协同动作；当前为电机调试阶段，扑翅与飞行未验证。
 
 <sub>目录依据：嵌入式芯片与系统设计竞赛、“西门子杯”、集创赛、中国大学生机械工程创新创意大赛及机械创新设计大赛均列入《<a href="https://statics.scnu.edu.cn/pics/xsb/2025/0103/1735893141731811.pdf">2024 全国普通高校大学生竞赛分析报告</a>》竞赛目录；物流技术创意赛为机械工程创新创意大赛的<a href="https://www.cmes.org/notice/010c5f85554e440e99d702008b58a26f.html">专项赛</a>。项目标题可点击查看源码与成果。</sub>
@@ -153,4 +153,4 @@
 
 **[3773318175@qq.com](mailto:3773318175@qq.com)** · 邮件索取最新版简历 · 项目问题请提交对应仓库 Issue。
 
-<sub>更新于 2026-11-10 · 星数统计于 2026-11-10，实时数量见仓库 · 实机阶段与验证范围详见各项目仓库。</sub>
+<sub>更新于 2026-11-11 · 星数统计于 2026-11-11，实时数量见仓库 · 实机阶段与验证范围详见各项目仓库。</sub>
