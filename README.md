@@ -38,13 +38,13 @@
 </td>
 <td width="50%" valign="top">
 <p><strong>职责</strong> · Roboto Origin 的 S600 实机部署</p>
-<p><strong>成果</strong> · YOLO 分割、Qwen3-VL 图片问答与 Whisper 转写；两分钟相机分割约 <strong>19.2 FPS</strong>。</p>
+<p><strong>成果</strong> · YOLO 相机分割实测 120 秒，约 <strong>19.2&nbsp;FPS</strong>。在 S600 BPU 上完成 Qwen3-VL 图片问答与 Whisper 语音转写。</p>
 <p><sub>自主导航与整机运动闭环待验收。</sub></p>
-<p><a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600/tree/main/apps/s600_coprocessor">源码</a> · <a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600/blob/main/docs/S600_COPROCESSOR_DEMO.md">验证报告</a></p>
+<p><a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600/blob/main/docs/S600_COPROCESSOR_DEMO.md">验证报告</a> · <a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600/tree/main/apps/s600_coprocessor">源码</a></p>
 <details>
 <summary>贡献与验证详情</summary>
 <p><strong>我的贡献：</strong>负责算法适配与板端部署，联调相机、雷达、麦克风，完成 ONNX 数值校验、S600 BPU 推理及 X5/S100 离线适配。</p>
-<p><strong>验证条件：</strong>真实传感器输入下完成多模态演示；19.2 FPS 为两分钟相机分割测量结果，不代表整套多模态系统吞吐率。</p>
+<p><strong>运行方式：</strong>相机分割在后台持续运行。Qwen3-VL 与 Whisper 共享 BPU 资源，图片问答和语音转写请求依次处理。</p>
 </details>
 </td>
 </tr>
@@ -79,41 +79,31 @@
 <p><a href="https://github.com/CanNyCat17/sasando-digital-resonator">2025 University Physics Competition</a> · <strong>Gold Medal</strong></p>
 
 <details>
-<summary>赛事全名与个人贡献</summary>
-
-前五项项目中担任 4 项队长，集创赛担任软件与 PAT 算法负责人。
+<summary>项目职责与成果</summary>
 
 - **[存储芯片 ATE/PAT 平台](https://github.com/CanNyCat17/memory-ate-pat-platform)**  
-  2026 全国大学生集成电路创新创业大赛 · **全国总决赛一等奖**<br>
-  软件与 PAT 算法负责人 · I²C/SPI 向量算法与 Electron 流式生成平台。
+  担任软件与 PAT 算法负责人，开发 I²C/SPI 测试向量算法与 Electron 流式生成平台。23LC1024 全容量回归生成 **563 万余行测试向量**。
 
 - **[双 RDK X5 材料 AI 与具身实验助理](https://github.com/CanNyCat17/dual-rdk-x5-materials-ai-robot-lab)**  
-  2026 全国大学生嵌入式芯片与系统设计竞赛 · **全国总决赛二等奖**<br>
-  队长 · 材料分析、CPU/BPU 部署与 ROS 2 多机双臂软件联调。
+  负责 XRD/PL 材料分析与机器人软件。针对内存约束采用 CPU/BPU 分层与按需换模，完成 INT8 真板推理及 ROS 2 多机双臂联调。
 
 - **[Lab-Sentinel｜烧结安全哨兵](https://github.com/CanNyCat17/Lab-Sentinel-CIMC2026)**  
-  2026 CIMC“西门子杯”中国智能制造挑战赛 · **全国总决赛二等奖**<br>
-  队长 · GD32H759、FreeRTOS/LVGL 软件与 MCU 边缘推理优化。
+  负责 GD32H759 上的 FreeRTOS/LVGL 软件开发与 MCU 端推理优化。
 
 - **[自主散料搬运机器人](https://github.com/CanNyCat17/intelligent-vision-logistics-crane-2026)**  
-  2026 中国大学生机械工程创新创意大赛物流技术创意赛 · **全国总决赛三等奖**<br>
-  队长 · Jetson 视觉、ROS 2 导航及串口联调。
+  负责 Jetson 上位机视觉、ROS 2 导航及串口联调。
 
 - **[RootScope｜根区灌溉舱](https://github.com/CanNyCat17/RootScope-AdventureX2026)**  
-  2026 AdventureX 黑客松 · **地瓜机器人赛道二等奖（第 2 名）· superun.ai 赛道三等奖**<br>
-  队长 · 视觉模型与 X5→STM32 探针/水泵联调。
-
-- **[美国大学生数学建模竞赛｜月球殖民地运输规划](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics)**<br>
-  2026 Mathematical Contest in Modeling · **M 奖（Meritorious Winner）**<br>
-  B 题 · 多目标运输优化、蒙特卡洛可靠性分析。[论文](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics/blob/main/paper/2600039.pdf) · [源码](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics/tree/main/matlab)
-
-- **[国际大学生物理竞赛｜Sasando 数字谐振器](https://github.com/CanNyCat17/sasando-digital-resonator)**<br>
-  2025 University Physics Competition · **金奖（Gold Medal）**<br>
-  项目负责人 · Problem A / Team 112。[论文](https://www.uphysicsc.com/2025-GM-A-112.pdf) · [源码](https://github.com/CanNyCat17/sasando-digital-resonator)
+  负责视觉模型，联调 X5 与 STM32 控制的探针和水泵。地瓜机器人赛道第 2 名，另获 superun.ai 赛道三等奖。
 
 - **[仿生蝴蝶｜四电机协同控制](https://github.com/CanNyCat17/bionic-butterfly-stm32)**<br>
-  2026 全国大学生机械创新设计大赛 · **重庆赛区二等奖（省级）**<br>
-  开源实现 · STM32G031 + DRV8837 四电机 PWM 驱动、镜像极性修正与协同动作；当前为电机调试阶段，扑翅与飞行未验证。
+  开源 STM32G031 + DRV8837 四电机 PWM 驱动、镜像极性修正与协同动作代码。当前代码用于电机调试，扑翅与飞行仍待验证。
+
+- **[月球殖民地运输规划](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics)**<br>
+  B 题，比较太空电梯与火箭的运输方案，进行多目标优化和蒙特卡洛可靠性分析。[完整论文](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics/blob/main/paper/2600039.pdf) · [MATLAB 源码](https://github.com/CanNyCat17/mcm-2026-b-lunar-logistics/tree/main/matlab)
+
+- **[Sasando 数字谐振器](https://github.com/CanNyCat17/sasando-digital-resonator)**<br>
+  项目负责人，Team 112 / Problem A。[官方金奖论文](https://www.uphysicsc.com/2025-GM-A-112.pdf) · [项目源码](https://github.com/CanNyCat17/sasando-digital-resonator)
 
 <sub>目录依据：嵌入式芯片与系统设计竞赛、“西门子杯”、集创赛、中国大学生机械工程创新创意大赛及机械创新设计大赛均列入《<a href="https://statics.scnu.edu.cn/pics/xsb/2025/0103/1735893141731811.pdf">2024 全国普通高校大学生竞赛分析报告</a>》竞赛目录；物流技术创意赛为机械工程创新创意大赛的<a href="https://www.cmes.org/notice/010c5f85554e440e99d702008b58a26f.html">专项赛</a>。项目标题可点击查看源码与成果。</sub>
 
@@ -122,14 +112,17 @@
 </td>
 <td width="30%" valign="top">
 
-<p><strong>SCI/SCIE Publications (2) · Co-author</strong> · <a href="https://doi.org/10.1016/j.ceramint.2025.10.342">Ceramics International</a> <strong>Q1</strong>, <a href="https://doi.org/10.1016/j.jlumin.2025.121192">Journal of Luminescence</a> <strong>Q2</strong> (JCR 2024)</p>
+<p><strong>SCI/SCIE Publications (2) · Co-author</strong><br>
+<a href="https://doi.org/10.1016/j.ceramint.2025.10.342">Ceramics International</a>&nbsp;<strong>Q1</strong><br>
+<a href="https://doi.org/10.1016/j.jlumin.2025.121192">Journal of Luminescence</a>&nbsp;<strong>Q2</strong><br>
+<sub>JCR 2024</sub></p>
 <p><strong>2026 重庆市级大学生创新训练项目</strong>｜第一负责人</p>
 
 <details>
 <summary>论文题名与科研职责</summary>
 
-1. [Enhanced luminescence performance of near-infrared phosphor Y₂CaAl₄SiO₁₂: Fe³⁺, Yb³⁺ through energy transfer for anti-counterfeiting applications](https://doi.org/10.1016/j.ceramint.2025.10.342). *Ceramics International*, **51** (2025), 61520–61530.
-2. [Exploring the luminescence mechanism and enabling tunable emission in Sr₃YGa₂O₇.₅: Bi³⁺, Eu³⁺ phosphors for advanced UV-converted white LEDs](https://doi.org/10.1016/j.jlumin.2025.121192). *Journal of Luminescence*, **281** (2025), 121192.
+1. Yunlong Li, Dan Zhang, Taifang Zhang, **Lingxuan Zhou**, Peng Wang, Vesna Đorđević, Valery F. Gremenok, Miroslav D. Dramićanin, Chonggeng Ma. [Enhanced luminescence performance of near-infrared phosphor Y₂CaAl₄SiO₁₂: Fe³⁺, Yb³⁺ through energy transfer for anti-counterfeiting applications](https://doi.org/10.1016/j.ceramint.2025.10.342). *Ceramics International*, **51** (2025), 61520–61530.
+2. Taifang Zhang, Dan Zhang, Peng Wang, **Lingxuan Zhou**, Mikhail G. Brik, Chonggeng Ma. [Exploring the luminescence mechanism and enabling tunable emission in Sr₃YGa₂O₇.₅: Bi³⁺, Eu³⁺ phosphors for advanced UV-converted white LEDs](https://doi.org/10.1016/j.jlumin.2025.121192). *Journal of Luminescence*, **281** (2025), 121192.
 
 - **重庆市级大学生创新训练项目｜高效 Cr³⁺掺杂宽带近红外光源的设计及应用研究**（2026 年）：第一负责人，负责项目统筹与材料高通量筛选；研究结构限域、邻位调控与能量传递，面向近红外荧光粉及 LED 器件应用。
 
