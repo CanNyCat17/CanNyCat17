@@ -15,7 +15,7 @@
 
 <table>
 <tr>
-<th width="50%" align="left"><a href="https://github.com/CanNyCat17/rdk-x5-microduck">RDK X5 Duck</a> · <a href="https://github.com/CanNyCat17/rdk-x5-microduck/stargazers">★ 51</a><br>机器人集成与开源复刻</th>
+<th width="50%" align="left"><a href="https://github.com/CanNyCat17/rdk-x5-microduck">RDK X5 Duck</a> · <a href="https://github.com/CanNyCat17/rdk-x5-microduck/stargazers">★ 59</a><br>机器人集成与开源复刻</th>
 <th width="50%" align="left"><a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600">RDK S600</a><br>多模态感知与实机部署</th>
 </tr>
 <tr>
@@ -122,7 +122,7 @@
 </td>
 <td width="30%" valign="top">
 
-<p><strong>SCI/SCIE 论文 2 篇 · Co-author</strong>：<a href="https://doi.org/10.1016/j.ceramint.2025.10.342">Ceramics International</a> <strong>Q1</strong>；<a href="https://doi.org/10.1016/j.jlumin.2025.121192">Journal of Luminescence</a> <strong>Q2</strong>（JCR 2024）</p>
+<p><strong>SCI/SCIE Publications (2) · Co-author</strong> · <a href="https://doi.org/10.1016/j.ceramint.2025.10.342">Ceramics International</a> <strong>Q1</strong>, <a href="https://doi.org/10.1016/j.jlumin.2025.121192">Journal of Luminescence</a> <strong>Q2</strong> (JCR 2024)</p>
 <p><strong>2026 重庆市级大学生创新训练项目</strong>｜第一负责人</p>
 
 <details>
@@ -153,4 +153,4 @@
 
 **[3773318175@qq.com](mailto:3773318175@qq.com)** · 邮件索取最新版简历 · 项目问题请提交对应仓库 Issue。
 
-<sub>更新于 2026-11-11 · 星数统计于 2026-11-11，实时数量见仓库 · 实机阶段与验证范围详见各项目仓库。</sub>
+<sub>更新于 2026-11-19 · 星数统计于 2026-11-19，实时数量见仓库 · 实机阶段与验证范围详见各项目仓库。</sub>
