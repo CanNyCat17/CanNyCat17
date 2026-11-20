@@ -11,7 +11,7 @@
 
 ## 代表作品
 
-Duck 与 Roboto Origin 依托南京地瓜机器人生态开发部门开展。
+Duck、Roboto Origin 与开发者生态工作依托南京地瓜机器人生态开发部门开展。
 
 <table>
 <tr>
@@ -47,12 +47,13 @@ Duck 与 Roboto Origin 依托南京地瓜机器人生态开发部门开展。
 </details>
 </td>
 </tr>
-</table>
-
-### [Roboto Origin · RDK S600](https://github.com/CanNyCat17/roboto-origin-rdk-s600)｜多模态感知与实机部署
-
+<tr>
+<th width="50%" align="left"><a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600">Roboto Origin · RDK S600</a><br>多模态感知与实机部署</th>
+<th width="50%" align="left">开发者生态贡献<br>课程交付与社区支持</th>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600/tree/main/apps/s600_coprocessor"><img src="assets/s600-showcase.svg" width="100%" alt="Roboto Origin S600 多模态部署动态流程示意"></a>
-
 <p><strong>职责</strong> · Roboto Origin 的 S600 实机部署</p>
 <p><strong>成果</strong> · YOLO 相机分割实测 120 秒，约 <strong>19.2&nbsp;FPS</strong>。在 S600 BPU 上完成 Qwen3-VL 图片问答与 Whisper 语音转写。</p>
 <p><sub>自主导航与整机运动闭环待验收。</sub></p>
@@ -62,13 +63,13 @@ Duck 与 Roboto Origin 依托南京地瓜机器人生态开发部门开展。
 <p><strong>我的贡献：</strong>负责算法适配与板端部署，联调相机、雷达、麦克风，完成 ONNX 数值校验、S600 BPU 推理及 X5/S100 离线适配。</p>
 <p><strong>运行方式：</strong>相机分割在后台持续运行。Qwen3-VL 与 Whisper 共享 BPU 资源，图片问答和语音转写请求依次处理。</p>
 </details>
-
-## 开发者生态贡献
-
-- **课程交付 · 已完成**  
-  交付所负责的 RDK X5/S100 双语课程、课件与实板样例。[课程贡献](https://github.com/D-Robotics/rdk-course-demos/commit/0ce864e93e8eaed061cebff69023e732961ea03e)
-- **社区支持 · 持续开展**  
-  诊断 SDK、BPU、相机及系统问题，跟进反馈并协同研发。[社区答复](https://forum.d-robotics.cc/u/cannycat/activity/replies)
+</td>
+<td width="50%" valign="top">
+<p><strong>课程交付 · 已完成</strong><br>交付所负责的 RDK X5/S100 双语课程、课件与实板样例。<br><a href="https://github.com/D-Robotics/rdk-course-demos/commit/0ce864e93e8eaed061cebff69023e732961ea03e">课程贡献</a></p>
+<p><strong>社区支持 · 持续开展</strong><br>诊断 SDK、BPU、相机及系统问题，跟进反馈并协同研发。<br><a href="https://forum.d-robotics.cc/u/cannycat/activity/replies">社区答复</a></p>
+</td>
+</tr>
+</table>
 
 <table>
 <thead>
