@@ -6,6 +6,23 @@
     <linearGradient id="chip" x2="1" y2="1"><stop stop-color="#00b99c"/><stop offset="1" stop-color="#0877ad"/></linearGradient>
     <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.3" fill="#35758c" opacity=".13"/></pattern>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#215478" flood-opacity=".12"/></filter>
+    <linearGradient id="glass" x2=".22" y2="1">
+      <stop stop-color="#fff" stop-opacity=".96"/>
+      <stop offset=".42" stop-color="#fff" stop-opacity=".69"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".39"/>
+    </linearGradient>
+    <linearGradient id="rim" x2=".85" y2="1">
+      <stop stop-color="#fff"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".56"/>
+      <stop offset="1" stop-color="#77a9c9" stop-opacity=".38"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x2="1" y2="0">
+      <stop stop-color="#81a7ff"/>
+      <stop offset=".53" stop-color="#74e0ca"/>
+      <stop offset="1" stop-color="#ffc684"/>
+    </linearGradient>
+    <filter id="bloom"><feGaussianBlur stdDeviation="26"/></filter>
+    <clipPath id="canvas"><rect x="2" y="2" width="1196" height="596" rx="30"/></clipPath>
     <clipPath id="frame"><rect x="88" y="245" width="223" height="136" rx="15"/></clipPath>
     <clipPath id="matrix"><rect x="895" y="246" width="216" height="132" rx="13"/></clipPath>
     <pattern id="cells" x="895" y="246" width="24" height="16.5" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="20" height="12.5" rx="3" fill="#ffd588"/></pattern>
@@ -26,18 +43,23 @@
   </style>
   <rect x="1" y="1" width="1198" height="598" rx="31" fill="url(#paper)" stroke="#d9ecee" stroke-width="2"/>
   <rect x="2" y="2" width="1196" height="596" rx="30" fill="url(#dots)"/>
-  <path d="M928 2H1168Q1198 2 1198 32V115Q1055 144 928 2Z" fill="#ffe7ae" opacity=".68"/>
-  <path d="M2 520Q154 480 304 598H32Q2 598 2 568Z" fill="#bbeee3" opacity=".62"/>
+  <g clip-path="url(#canvas)" fill="none">
+    <path d="M-107 441C87 544 243 438 440 282S789 58 978 232s198 145 315 22" stroke="url(#ribbon)" stroke-width="168" opacity=".46" filter="url(#bloom)"/>
+    <path d="M-93 545C124 602 255 487 426 374S751 183 916 303s214 125 342 38" stroke="url(#ribbon)" stroke-width="54" opacity=".53"/>
+    <path d="M-93 524C124 581 255 466 426 353S751 162 916 282s214 125 342 38" stroke="#fff" stroke-width="3" opacity=".8"/>
+    <path d="M-54 401C128 472 260 347 425 247S714 79 875 180s207 153 399 61" stroke="#fff" stroke-width="1.5" opacity=".68"/>
+  </g>
   <rect x="40" y="45" width="8" height="60" rx="4" fill="#ff9e37"/>
   <text x="65" y="92" font-size="58" font-weight="750">H-Bot <tspan fill="#087c87">· RDK S600</tspan></text>
-  <rect x="855" y="47" width="300" height="60" rx="30" fill="#fff" stroke="#f1ddae" stroke-width="2"/>
+  <rect x="855" y="47" width="300" height="60" rx="30" fill="url(#glass)" stroke="url(#rim)" stroke-width="3" filter="url(#shadow)"/>
   <circle cx="889" cy="77" r="7" fill="#f4a235"/>
   <text x="912" y="88" font-size="31" font-weight="700">单帧离线验证</text>
-  <g fill="#fff" stroke="#e2eaee" stroke-width="2" filter="url(#shadow)">
-    <rect x="38" y="146" width="322" height="398" rx="25"/>
-    <rect x="431" y="146" width="338" height="398" rx="25"/>
-    <rect x="840" y="146" width="322" height="398" rx="25"/>
+  <g fill="url(#glass)" stroke="url(#rim)" stroke-width="3" filter="url(#shadow)">
+    <rect x="38" y="158" width="322" height="374" rx="30"/>
+    <rect x="431" y="139" width="338" height="412" rx="34"/>
+    <rect x="840" y="158" width="322" height="374" rx="30"/>
   </g>
+  <path d="M461 149h278M68 168h262M870 168h262" stroke="#fff" stroke-opacity=".9" stroke-width="3" stroke-linecap="round"/>
   <g stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">
     <path d="M368 316H419m-10-10 10 10-10 10" stroke="#60a8e9"/>
     <path d="M778 316H829m-10-10 10 10-10 10" stroke="#52bda6"/>
@@ -56,11 +78,12 @@
   </g>
   <text x="199" y="490" text-anchor="middle" class="caption">单帧输入</text>
   <text x="600" y="212" text-anchor="middle" class="heading">板端推理</text>
-  <circle cx="600" cy="314" r="91" fill="#e6faf5"/>
+  <circle cx="600" cy="314" r="98" fill="#d3f8ef" opacity=".68" stroke="#fff" stroke-width="3" filter="url(#shadow)"/>
   <circle class="ring" cx="600" cy="314" r="90" fill="none" stroke="#0fbba4" stroke-width="5" stroke-dasharray="53 24 13 51"/>
   <path d="M527 286h19m-19 28h19m-19 28h19m108-56h19m-19 28h19m-19 28h19m-101-99v19m28-19v19m28-19v19m-56 104v19m28-19v19m28-19v19" stroke="#2cbba9" stroke-width="5" stroke-linecap="round"/>
   <rect x="546" y="260" width="108" height="108" rx="19" fill="url(#chip)"/>
   <rect x="553" y="267" width="94" height="94" rx="15" fill="none" stroke="#8de8db" opacity=".78" stroke-width="2"/>
+  <path d="M555 288q0-19 19-19h61q8 0 11 7c-20 10-49 13-91 13z" fill="#fff" opacity=".28"/>
   <text x="600" y="328" text-anchor="middle" font-size="42" font-weight="750" style="fill:#fff">π0.5</text>
   <text x="600" y="490" text-anchor="middle" class="caption">LeRobot π0.5</text>
   <text x="1001" y="212" text-anchor="middle" class="heading">动作序列</text>
