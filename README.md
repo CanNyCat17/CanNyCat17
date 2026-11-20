@@ -11,16 +11,16 @@
 
 ## 代表作品
 
-依托南京地瓜机器人生态开发部门
+Duck 与 Roboto Origin 依托南京地瓜机器人生态开发部门开展。
 
 <table>
 <tr>
 <th width="50%" align="left"><a href="https://github.com/CanNyCat17/rdk-x5-microduck">RDK X5 Duck</a> · <a href="https://github.com/CanNyCat17/rdk-x5-microduck/stargazers">★ 59</a><br>机器人集成与开源复刻</th>
-<th width="50%" align="left"><a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600">RDK S600</a><br>多模态感知与实机部署</th>
+<th width="50%" align="left"><a href="https://github.com/CanNyCat17/hbot-s600-deployment">H-Bot · RDK S600</a><br>机器人策略部署</th>
 </tr>
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/CanNyCat17/rdk-x5-microduck/blob/main/docs/CURRENT_PROTOTYPE.md"><img src="assets/duck-hero-20261106.png" width="100%" alt="RDK X5 Duck 实机与最新进度"></a></td>
-<td width="50%" valign="top"><a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600/tree/main/apps/s600_coprocessor"><img src="assets/s600-showcase.svg" width="100%" alt="S600 多模态部署动态流程示意"></a></td>
+<td width="50%" valign="top"><a href="https://github.com/CanNyCat17/hbot-s600-deployment"><img src="assets/hbot-s600-showcase.svg" width="100%" alt="H-Bot 部署示意：固定观测经 RDK S600 上的 π0.5 推理，输出 50 步、每步 8 维的动作序列"></a></td>
 </tr>
 <tr>
 <td width="50%" valign="top">
@@ -37,6 +37,22 @@
 </details>
 </td>
 <td width="50%" valign="top">
+<p><strong>职责</strong> · H-Bot 竞赛的板端部署与推理优化</p>
+<p><strong>成果</strong> · 在 RDK S600 上完成 LeRobot π0.5 单帧 SDK 离线推理，得到 <strong>50 步 × 8 维</strong>动作序列。</p>
+<p><a href="https://github.com/CanNyCat17/hbot-s600-deployment">部署代码与验证说明</a></p>
+<details>
+<summary>贡献与验证详情</summary>
+<p>公开了去噪速度场采集工具，以及使用合成动作块检查前缀选择、逐步确认和历史隔离的辅助代码。</p>
+<p>当前公开结果为单帧离线验证，板端稳定性与闭环评测待验收。</p>
+</details>
+</td>
+</tr>
+</table>
+
+### [Roboto Origin · RDK S600](https://github.com/CanNyCat17/roboto-origin-rdk-s600)｜多模态感知与实机部署
+
+<a href="https://github.com/CanNyCat17/roboto-origin-rdk-s600/tree/main/apps/s600_coprocessor"><img src="assets/s600-showcase.svg" width="100%" alt="Roboto Origin S600 多模态部署动态流程示意"></a>
+
 <p><strong>职责</strong> · Roboto Origin 的 S600 实机部署</p>
 <p><strong>成果</strong> · YOLO 相机分割实测 120 秒，约 <strong>19.2&nbsp;FPS</strong>。在 S600 BPU 上完成 Qwen3-VL 图片问答与 Whisper 语音转写。</p>
 <p><sub>自主导航与整机运动闭环待验收。</sub></p>
@@ -46,9 +62,6 @@
 <p><strong>我的贡献：</strong>负责算法适配与板端部署，联调相机、雷达、麦克风，完成 ONNX 数值校验、S600 BPU 推理及 X5/S100 离线适配。</p>
 <p><strong>运行方式：</strong>相机分割在后台持续运行。Qwen3-VL 与 Whisper 共享 BPU 资源，图片问答和语音转写请求依次处理。</p>
 </details>
-</td>
-</tr>
-</table>
 
 ## 开发者生态贡献
 
@@ -146,4 +159,4 @@
 
 **[3773318175@qq.com](mailto:3773318175@qq.com)** · 邮件索取最新版简历 · 项目问题请提交对应仓库 Issue。
 
-<sub>更新于 2026-11-19 · 星数统计于 2026-11-19，实时数量见仓库 · 实机阶段与验证范围详见各项目仓库。</sub>
+<sub>更新于 2026-11-20 · 星数统计于 2026-11-19，实时数量见仓库 · 实机阶段与验证范围详见各项目仓库。</sub>
