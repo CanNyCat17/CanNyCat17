@@ -16,7 +16,7 @@ Duck、Roboto Origin 与开发者生态工作依托南京地瓜机器人生态�
 <table>
 <tr>
 <th width="50%" align="left"><a href="https://github.com/CanNyCat17/rdk-x5-microduck">RDK X5 Duck</a> · <a href="https://github.com/CanNyCat17/rdk-x5-microduck/stargazers">★ 59</a><br>机器人集成与开源复刻</th>
-<th width="50%" align="left"><a href="https://github.com/CanNyCat17/hbot-s600-deployment">H-Bot · RDK S600</a><br>机器人策略部署</th>
+<th width="50%" align="left"><a href="https://github.com/CanNyCat17/hbot-s600-deployment">地平线 H-Bot 机甲巅峰赛</a><br>RDK S600 机器人策略部署</th>
 </tr>
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/CanNyCat17/rdk-x5-microduck/blob/main/docs/CURRENT_PROTOTYPE.md"><img src="assets/duck-hero-20261106.png" width="100%" alt="RDK X5 Duck 实机与最新进度"></a></td>
@@ -37,9 +37,9 @@ Duck、Roboto Origin 与开发者生态工作依托南京地瓜机器人生态�
 </details>
 </td>
 <td width="50%" valign="top">
-<p><strong>职责</strong> · H-Bot 竞赛的板端部署与推理优化</p>
+<p><strong>职责</strong> · 板端部署与推理优化</p>
 <p><strong>成果</strong> · 在 RDK S600 上完成 LeRobot π0.5 单帧 SDK 离线推理，得到 <strong>50 步 × 8 维</strong>动作序列。</p>
-<p><a href="https://github.com/CanNyCat17/hbot-s600-deployment">部署代码与验证说明</a></p>
+<p><a href="https://github.com/CanNyCat17/hbot-s600-deployment">部署代码与验证说明</a> · <a href="https://hbot-competition.horizon.auto/">赛事官网</a></p>
 <details>
 <summary>贡献与验证详情</summary>
 <p>公开了去噪速度场采集工具，以及使用合成动作块检查前缀选择、逐步确认和历史隔离的辅助代码。</p>
