@@ -11,12 +11,12 @@
 
 ## 代表作品
 
-Duck、Roboto Origin 与开发者生态工作依托南京地瓜机器人生态开发部门开展。
+这里展示 RDK 实习交付与竞赛实践。实习工作依托南京地瓜机器人生态开发部门开展，H-Bot 的板端部署使用该部门提供的算力与 RDK S600 开发板。
 
 <table>
 <tr>
 <th width="50%" align="left"><a href="https://github.com/CanNyCat17/rdk-x5-microduck">RDK X5 Duck</a> · <a href="https://github.com/CanNyCat17/rdk-x5-microduck/stargazers">★ 59</a><br>机器人集成与开源复刻</th>
-<th width="50%" align="left"><a href="https://github.com/CanNyCat17/hbot-s600-deployment">地平线 H-Bot 机甲巅峰赛</a><br>RDK S600 机器人策略部署</th>
+<th width="50%" align="left"><a href="https://github.com/CanNyCat17/hbot-s600-deployment">地平线 H-Bot 机甲巅峰赛</a><br>竞赛项目 · RDK S600 策略部署</th>
 </tr>
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/CanNyCat17/rdk-x5-microduck/blob/main/docs/CURRENT_PROTOTYPE.md"><img src="assets/duck-hero-20261106.png" width="100%" alt="RDK X5 Duck 实机与最新进度"></a></td>
