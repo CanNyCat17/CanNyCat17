@@ -65,6 +65,7 @@
 </details>
 </td>
 <td width="50%" valign="top">
+<img src="assets/rdk-ecosystem-showcase.svg" width="100%" alt="RDK 开发者生态：X5/S100 双语课程已交付，论坛技术支持持续开展。">
 <p><strong>课程交付 · 已完成</strong><br>交付所负责的 RDK X5/S100 双语课程、课件与实板样例。<br><a href="https://github.com/D-Robotics/rdk-course-demos/commit/0ce864e93e8eaed061cebff69023e732961ea03e">课程贡献</a></p>
 <p><strong>社区支持 · 持续开展</strong><br>诊断 SDK、BPU、相机及系统问题，跟进反馈并协同研发。<br><a href="https://forum.d-robotics.cc/u/cannycat/activity/replies">社区答复</a></p>
 </td>
